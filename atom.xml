@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Lucka</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://lucka.moe/"/>
+  <updated>2017-01-15T05:40:02.000Z</updated>
+  <id>https://lucka.moe/</id>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>临潼旅游 Tips</title>
+    <link href="https://lucka.moe/2017/01/13/lintong-tour-tips/"/>
+    <id>https://lucka.moe/2017/01/13/lintong-tour-tips/</id>
+    <published>2017-01-12T16:27:09.000Z</published>
+    <updated>2017-01-15T05:40:02.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天&lt;del&gt;……呃，是昨天……&lt;/del&gt;去了华清宫和&lt;del&gt;全球最大历史最悠久的手办展览&lt;/del&gt;兵马俑参观。恰逢最近网络上&lt;a href=&quot;http://mp.weixin.qq.com/s/Q48HnoRRtWY3UO7GdiycpQ&quot; title=&quot;微信&quot;&gt;一篇关于西安旅游诈骗问题的文章&lt;/a&gt;（微信转载，原标题《&lt;em&gt;西安是个很好玩的城市，景点和骗子都很好玩。&lt;/em&gt;》&lt;a href=&quot;http://media.weibo.cn/article?id=2309404060907733953537&quot; title=&quot;微博&quot;&gt;微博原文&lt;/a&gt;疑似已被删除）引起了非常多的讨论，但关于如何避免上当受骗的具体方法我一直查不到，因此惶恐不安如临大敌地迎接了这一天的行程。&lt;/p&gt;
+&lt;p&gt;还好，一路上貌似并没有受骗&lt;del&gt;，其实是因为现在是淡季中的淡季，骗子都懒得出来行骗了233&lt;/del&gt;，于是就把今天的亲身体会总结一下放在这里供人参考吧。&lt;del&gt;这小破站有人会看吗233&lt;/del&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Travel" scheme="https://lucka.moe/tags/Travel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++ 笔记</title>
+    <link href="https://lucka.moe/2017/01/06/cpp-note/"/>
+    <id>https://lucka.moe/2017/01/06/cpp-note/</id>
+    <published>2017-01-05T17:12:56.000Z</published>
+    <updated>2017-01-12T18:21:57.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这些内容是在C++考试前突击复习整理出来的，一些零碎知识、代码和容易混淆、忘记的知识。&lt;/p&gt;
+&lt;p&gt;这些对编程实践可能并没有什么用，但对于考试的填空选择可能用处不少，因此写出来供我自己和大家参考。&lt;/p&gt;
+&lt;p&gt;因为时间原因，有些内容还没有经过编程证实，如果有错误还请联系我，我会加以改正。&lt;/p&gt;
+&lt;p&gt;另外我打算在近期（期末考试结束后？）启用博客的评论系统，到时候方便交流啦～&lt;del&gt;咕咕咕？&lt;/del&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Program" scheme="https://lucka.moe/tags/Program/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2016 Review</title>
+    <link href="https://lucka.moe/2017/01/01/2016-review/"/>
+    <id>https://lucka.moe/2017/01/01/2016-review/</id>
+    <published>2016-12-31T16:00:01.000Z</published>
+    <updated>2016-12-31T16:44:55.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2017 新年快乐！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2017/1/Lunasa&amp;amp;Youmu.png&quot; alt=&quot;&quot; title=&quot;虽然很拙劣，但真的真的是用心画的！&quot;&gt;&lt;/p&gt;
+&lt;p&gt;然后，回顾一下2016年。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Journey" scheme="https://lucka.moe/tags/Journey/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>被虚拟入侵的现实</title>
+    <link href="https://lucka.moe/2016/12/11/hack-into-reality/"/>
+    <id>https://lucka.moe/2016/12/11/hack-into-reality/</id>
+    <published>2016-12-11T13:26:36.000Z</published>
+    <updated>2016-12-11T18:25:58.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;关于最近在我身边发生的一些，Ingress 的事。&lt;/p&gt;
+&lt;p&gt;本来写了很多，但是在写的过程中我感觉我的思维和心已经彻底冷却下来了。&lt;/p&gt;
+&lt;p&gt;已经冷到写不下去了。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Ingress" scheme="https://lucka.moe/tags/Ingress/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>你的名字。</title>
+    <link href="https://lucka.moe/2016/12/03/your-name/"/>
+    <id>https://lucka.moe/2016/12/03/your-name/</id>
+    <published>2016-12-03T13:19:15.000Z</published>
+    <updated>2016-12-11T18:25:58.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天看了《你的名字。》&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;请注意，本文含有剧透。&lt;/em&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="ACG" scheme="https://lucka.moe/tags/ACG/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Hexo</title>
+    <link href="https://lucka.moe/2016/10/21/Hello-Hexo/"/>
+    <id>https://lucka.moe/2016/10/21/Hello-Hexo/</id>
+    <published>2016-10-20T17:27:49.000Z</published>
+    <updated>2016-12-11T18:25:58.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在断断续续的干扰以及各种事件的影响下，Tumblr 终于上了某张黑名单。虽然我想大概没人会看，但即使如此自己的博客无法在大陆正常的浏览还是让我觉得「哎…这样还是不行呀」，想起当初从点点搬迁到 Tumblr 时自己的两点要求之一就是：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul
+    
+    </summary>
+    
+    
+      <category term="Journey" scheme="https://lucka.moe/tags/Journey/"/>
+    
+  </entry>
+  
+</feed>
