@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lucka.moe/"/>
-  <updated>2017-04-08T12:07:03.000Z</updated>
+  <updated>2017-04-08T10:42:28.000Z</updated>
   <id>https://lucka.moe/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
@@ -15,7 +15,7 @@
     <link href="https://lucka.moe/2017/04/08/meboy-tutorial/"/>
     <id>https://lucka.moe/2017/04/08/meboy-tutorial/</id>
     <published>2017-04-08T10:42:28.000Z</published>
-    <updated>2017-04-08T12:07:03.000Z</updated>
+    <updated>2017-04-08T10:42:28.000Z</updated>
     
     <content type="html"><![CDATA[<p>这是我很久之前写的两篇关于 Meboy 的教程，分别发表于2011年8月3日和2012年8月11日，内容均经过增删改。</p>
 <p><a href="http://arktos.se/meboy/" title="arktos.se - MeBoy" target="_blank" rel="external">Meboy</a> 是一个古老的 GameBoy Color 模拟器，基于 Java，可以运行在诺基亚 Series 40 手机上。<br>虽然现在诺基亚早已倒闭，那些 Series 40 手机也几乎销声匿迹了，而且现在 Android 和 iOS 上的模拟器已经非常优秀，但是……说不定真的还有人玩呢……嘛，希望能帮助到这「不确定是否存在」的玩家吧。</p>
@@ -70,17 +70,17 @@
     <link href="https://lucka.moe/2017/04/03/yuyuko-mission/"/>
     <id>https://lucka.moe/2017/04/03/yuyuko-mission/</id>
     <published>2017-04-03T15:58:36.000Z</published>
-    <updated>2017-04-03T17:16:12.000Z</updated>
+    <updated>2017-04-12T09:05:00.000Z</updated>
     
-    <content type="html"><![CDATA[<blockquote class="blockquote-center"><p><strong>本系列任务尚未全部通过审核，请耐心等待更新。</strong><br><strong>本任务使用的图片</strong></p>
+    <content type="html"><![CDATA[<blockquote class="blockquote-center"><p><strong>本系列任务尚未全部通过审核，请耐心等待更新，本文将随时更新审核进度。</strong><br><strong>本任务使用的图片</strong></p>
 <p><script src="https://source.pixiv.net/source/embed.js" data-id="3339758_dbe4304c2e26f61e0c052fafcfca6945" data-size="medium" data-border="on" charset="utf-8"></script><noscript><p><a href="http://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=3339758" target="_blank">優雅に咲かせ～</a> by <a href="http://www.pixiv.net/member.php?id=90464" target="_blank">伍長</a> on <a href="http://www.pixiv.net/" target="_blank">pixiv</a></p></noscript><br><em>已经过原作者许可。</em></p>
 </blockquote>
 <a id="more"></a>
 <p>这是我第一次申请任务。起因是本校蓝军 <font color="blue">@xhcyz</font> 在群里的一次聊天。我明明只是一条围观吐槽的咸鱼，怎么就把这锅给接了呢……为什么会这样呢……</p>
 <p>总之就按着流程走了一遍，然后祈祷着猩猩能快点审核、多过几个。</p>
 <h2 id="任务介绍"><a href="#任务介绍" class="headerlink" title="任务介绍"></a>任务介绍</h2><p>设计者：<font color="blue">@xhcyz</font>、<font color="green">@Seele585</font><br>任务数量：24<br>Portal 数量：144（每个任务6个 Portal）<br>位置：西安<br>起点：长安大学渭水校区 - 乒乓球天地<sup><a href="https://www.ingress.com/intel?ll=34.37668,108.905064&amp;z=17&amp;pll=34.37668,108.905064" title="Ingress Intel Map" target="_blank" rel="external">Intel</a></sup><br>终点：长安大学雁塔校区 - 长安大学<sup><a href="https://www.ingress.com/intel?ll=34.226921,108.95893&amp;z=17&amp;pll=34.226921,108.95893" title="Ingress Intel Map" target="_blank" rel="external">Intel</a></sup><br>任务性质：入侵／输入通行密码／升级<br>典型完成时间：不适用（暂未完全通过审核）<br>建议交通方式：步行／地铁 / 公交</p>
-<p>这个拼图的任务数量恰好和《<a href="http://thwiki.cc/东方妖妖梦" title="THBWiki" target="_blank" rel="external">东方妖妖梦</a>》中<a href="http://thwiki.cc/西行寺幽幽子" title="THBWiki" target="_blank" rel="external">西行寺幽幽子</a>的符卡数量一致，并且游戏中四个难度每个都有六张，于是用符卡简介和个人评价充当任务简介（太草率了！）。由于我还是个只能玩 Easy 难度的新人，如果有什么不对的地方还请指出，我会尽快修改。<br>另外本任务还有一些设计东方的小问题，大部分都是选择题，有一些是问答题，答案都可以在 <a href="http://thwiki.cc/首页" title="THBWiki · 专业性的东方Project中文维基百科" target="_blank" rel="external">THBWiki</a> 上查到，如果有错误或不适合的，也请告诉我！<br>待全部任务都通过审核之后我会整理出答案表格以供入坑不深的玩家参考。</p>
-<h2 id="审核状态"><a href="#审核状态" class="headerlink" title="审核状态"></a>审核状态</h2><p>通过审核：9（猩猩笨蛋！！）<br>未通过审核（已重新提交）：14<br>状态不明：1</p>
+<p>这个拼图的任务数量恰好和《<a href="http://thwiki.cc/东方妖妖梦" title="THBWiki" target="_blank" rel="external">东方妖妖梦</a>》中<a href="http://thwiki.cc/西行寺幽幽子" title="THBWiki" target="_blank" rel="external">西行寺幽幽子</a>的符卡数量一致，并且游戏中四个难度每个都有六张，于是用符卡简介和个人评价充当任务简介（太草率了！）。由于我还是个只能玩 Easy 难度的新人，如果有什么不对的地方还请指出，我会尽快修改。<br>另外本任务还有一些涉及东方的小问题，大部分都是选择题，有一些是问答题，答案都可以在 <a href="http://thwiki.cc/首页" title="THBWiki · 专业性的东方Project中文维基百科" target="_blank" rel="external">THBWiki</a> 上查到，如果有错误或不适合的，也请告诉我！<br>待全部任务都通过审核之后我会整理出答案表格以供入坑不深的玩家参考。</p>
+<h2 id="审核状态"><a href="#审核状态" class="headerlink" title="审核状态"></a>审核状态</h2><p>通过审核：10<br>未通过审核（已重新提交）：13<br>状态不明：1</p>
 <table>
 <thead>
 <tr>
@@ -98,7 +98,7 @@
 <tr>
 <td style="text-align:center">2</td>
 <td style="text-align:center"><font color="green">✓</font></td>
-<td style="text-align:center">-</td>
+<td style="text-align:center">0</td>
 </tr>
 <tr>
 <td style="text-align:center">3</td>
@@ -118,17 +118,17 @@
 <tr>
 <td style="text-align:center">6</td>
 <td style="text-align:center"><font color="green">✓</font></td>
-<td style="text-align:center">-</td>
+<td style="text-align:center">0</td>
 </tr>
 <tr>
 <td style="text-align:center">7</td>
 <td style="text-align:center"><font color="green">✓</font></td>
-<td style="text-align:center">-</td>
+<td style="text-align:center">0</td>
 </tr>
 <tr>
 <td style="text-align:center">8</td>
 <td style="text-align:center"><font color="green">✓</font></td>
-<td style="text-align:center">-</td>
+<td style="text-align:center">0</td>
 </tr>
 <tr>
 <td style="text-align:center">9</td>
@@ -143,12 +143,12 @@
 <tr>
 <td style="text-align:center">11</td>
 <td style="text-align:center"><font color="green">✓</font></td>
-<td style="text-align:center">-</td>
+<td style="text-align:center">0</td>
 </tr>
 <tr>
 <td style="text-align:center">12</td>
 <td style="text-align:center"><font color="green">✓</font></td>
-<td style="text-align:center">-</td>
+<td style="text-align:center">0</td>
 </tr>
 <tr>
 <td style="text-align:center">13</td>
@@ -158,7 +158,7 @@
 <tr>
 <td style="text-align:center">14</td>
 <td style="text-align:center"><font color="green">✓</font></td>
-<td style="text-align:center">-</td>
+<td style="text-align:center">0</td>
 </tr>
 <tr>
 <td style="text-align:center">15</td>
@@ -177,23 +177,23 @@
 </tr>
 <tr>
 <td style="text-align:center">18</td>
-<td style="text-align:center"><font color="red">✗</font></td>
+<td style="text-align:center"><font color="green">✓</font></td>
 <td style="text-align:center">2</td>
 </tr>
 <tr>
 <td style="text-align:center">19</td>
 <td style="text-align:center"><font color="green">✓</font></td>
-<td style="text-align:center">-</td>
+<td style="text-align:center">0</td>
 </tr>
 <tr>
 <td style="text-align:center">20</td>
 <td style="text-align:center"><font color="orange">?</font></td>
-<td style="text-align:center">-</td>
+<td style="text-align:center">0</td>
 </tr>
 <tr>
 <td style="text-align:center">21</td>
 <td style="text-align:center"><font color="red">✗</font></td>
-<td style="text-align:center">2</td>
+<td style="text-align:center">3</td>
 </tr>
 <tr>
 <td style="text-align:center">22</td>
@@ -208,15 +208,19 @@
 <tr>
 <td style="text-align:center">24</td>
 <td style="text-align:center"><font color="green">✓</font></td>
-<td style="text-align:center">-</td>
+<td style="text-align:center">0</td>
 </tr>
 </tbody>
 </table>
+<h3 id="更新历史"><a href="#更新历史" class="headerlink" title="更新历史"></a>更新历史</h3><ul>
+<li><strong>2017-04-03</strong><br>2、6、7、8、11、12、14、19、24号任务通过审核<br>20号任务状态不明<br>其余被拒绝。</li>
+<li><strong>2017-04-12</strong><br>18号任务通过审核<br>9、16、21号任务被拒绝。</li>
+</ul>
 ]]></content>
     
     <summary type="html">
     
-      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;&lt;strong&gt;本系列任务尚未全部通过审核，请耐心等待更新。&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;本任务使用的图片&lt;/strong&gt;&lt;/p&gt;
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;&lt;strong&gt;本系列任务尚未全部通过审核，请耐心等待更新，本文将随时更新审核进度。&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;本任务使用的图片&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;script src=&quot;https://source.pixiv.net/source/embed.js&quot; data-id=&quot;3339758_dbe4304c2e26f61e0c052fafcfca6945&quot; data-size=&quot;medium&quot; data-border=&quot;on&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;noscript&gt;&lt;p&gt;&lt;a href=&quot;http://www.pixiv.net/member_illust.php?mode=medium&amp;amp;illust_id=3339758&quot; target=&quot;_blank&quot;&gt;優雅に咲かせ～&lt;/a&gt; by &lt;a href=&quot;http://www.pixiv.net/member.php?id=90464&quot; target=&quot;_blank&quot;&gt;伍長&lt;/a&gt; on &lt;a href=&quot;http://www.pixiv.net/&quot; target=&quot;_blank&quot;&gt;pixiv&lt;/a&gt;&lt;/p&gt;&lt;/noscript&gt;&lt;br&gt;&lt;em&gt;已经过原作者许可。&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
     
@@ -232,7 +236,7 @@
     <link href="https://lucka.moe/2017/03/25/sunmoon-clothes-statistic/"/>
     <id>https://lucka.moe/2017/03/25/sunmoon-clothes-statistic/</id>
     <published>2017-03-25T11:42:58.000Z</published>
-    <updated>2017-03-25T14:41:21.000Z</updated>
+    <updated>2017-03-25T11:42:58.000Z</updated>
     
     <content type="html"><![CDATA[<p>之前一鼓作气把拖了三个月的<a href="https://wiki.52poke.com/wiki/服装样式列表（SM）" title="服装样式列表（SM） - 神奇宝贝百科" target="_blank" rel="external">日月服装样式列表</a>做完了，今天抽空把一些价格统计也补了上去。<br>然后简单统计了一下，看看这个最烧钱的服装系统到底是怎么烧钱的。</p>
 <a id="more"></a>
@@ -598,7 +602,7 @@
     </summary>
     
     
-      <category term="Pokemon" scheme="https://lucka.moe/tags/Pokemon/"/>
+      <category term="Pokémon" scheme="https://lucka.moe/tags/Pokemon/"/>
     
   </entry>
   
@@ -607,7 +611,7 @@
     <link href="https://lucka.moe/2017/03/14/the-attorney/"/>
     <id>https://lucka.moe/2017/03/14/the-attorney/</id>
     <published>2017-03-14T14:33:52.000Z</published>
-    <updated>2017-03-14T15:54:19.000Z</updated>
+    <updated>2017-03-14T14:33:52.000Z</updated>
     
     <content type="html"><![CDATA[<p>这个学期的公选课选了「影像与司法」，今晚第一次上，看了韩国电影《辩护人》。</p>
 <p>上大学以来选过好几次课，今次最强烈地感受到「我选对课了」。</p>
@@ -644,7 +648,7 @@
     <link href="https://lucka.moe/2017/03/04/ImageMagick-note/"/>
     <id>https://lucka.moe/2017/03/04/ImageMagick-note/</id>
     <published>2017-03-04T04:09:33.000Z</published>
-    <updated>2017-03-04T06:36:33.000Z</updated>
+    <updated>2017-03-14T14:33:52.000Z</updated>
     
     <content type="html"><![CDATA[<p>多亏 ImageMagick，最近终于把百科上某个咕了三个多月的页面……的一半……的80%填完了……</p>
 <p>真的懒到令自己发指。</p>
@@ -715,7 +719,7 @@
     <link href="https://lucka.moe/2017/02/04/life-with-apple-watch/"/>
     <id>https://lucka.moe/2017/02/04/life-with-apple-watch/</id>
     <published>2017-02-04T15:30:03.000Z</published>
-    <updated>2017-02-07T09:16:55.000Z</updated>
+    <updated>2017-02-04T15:30:03.000Z</updated>
     
     <content type="html"><![CDATA[<p>2016年暑假有点意外地得到了一块 Apple Watch，坚持戴了大半年。这期间不少人问过我，这表有什么用啊？每次我都语塞不知道如何回答，实在是太尴尬了！<br>于是我花了一晚上凑出这篇文章，希望以后被问起这个的时候不再那么尴尬<del>，至少可以「卢卡不想说话，并丢给对方一个链接」，顺便宣传一下这个腊鸡网站</del>。</p>
 <a id="more"></a>
@@ -787,7 +791,7 @@
     <link href="https://lucka.moe/2017/01/26/lost-data/"/>
     <id>https://lucka.moe/2017/01/26/lost-data/</id>
     <published>2017-01-26T15:45:20.000Z</published>
-    <updated>2017-01-26T19:14:03.000Z</updated>
+    <updated>2017-01-26T15:45:20.000Z</updated>
     
     <content type="html"><![CDATA[<p>今天在<a href="https://wiki.52poke.com" title="神奇宝贝百科" target="_blank" rel="external">神奇宝贝百科</a>上整理一些专辑信息，我的工作是用<a href="https://wiki.52poke.com/wiki/Template:Tracklist" title="模板：Tracklist" target="_blank" rel="external">一个模板</a>代替目前的曲目列表，顺便核对信息、修复损坏链接。按着我的监视列表的顺序，从英文开头的条目开始作业，不少都是很老的英语专辑，有些目前在 iTunes 商店上还有销售，不过 iTunes 上的信息也并非全部正确，<a href="https://itunes.apple.com/us/album/pokemon-first-movie-soundtrack/id42335088" title="iTunes Store" target="_blank" rel="external">有张专辑</a>的演唱者居然全部写成了「Pokémon - The First Movie」，<a href="https://itunes.apple.com/us/album/pokemon-x-10-years-of-pokemon/id194320688" title="iTunes Store" target="_blank" rel="external">还有一张</a>甚至把 Pok<strong>é</strong>mon 写成 Pok<strong>e</strong>mon……「我记录的信息居然比 iTunes 商店的更准确啊」，心里暗自窃喜。</p>
 <p>后来在整理的过程想起了一些旧事，发现一些不容乐观的事正悄悄发生着。用推特记录了当时的心情，晚上胡思乱想一番，决定把这些完整地写下来。</p>
@@ -831,7 +835,7 @@
     <link href="https://lucka.moe/2017/01/13/lintong-tour-tips/"/>
     <id>https://lucka.moe/2017/01/13/lintong-tour-tips/</id>
     <published>2017-01-12T16:27:09.000Z</published>
-    <updated>2017-01-15T05:40:02.000Z</updated>
+    <updated>2017-01-12T16:27:09.000Z</updated>
     
     <content type="html"><![CDATA[<p>今天<del>……呃，是昨天……</del>去了华清宫和<del>全球最大历史最悠久的手办展览</del>兵马俑参观。恰逢最近网络上<a href="http://mp.weixin.qq.com/s/Q48HnoRRtWY3UO7GdiycpQ" title="微信" target="_blank" rel="external">一篇关于西安旅游诈骗问题的文章</a>（微信转载，原标题《<em>西安是个很好玩的城市，景点和骗子都很好玩。</em>》<a href="http://media.weibo.cn/article?id=2309404060907733953537" title="微博" target="_blank" rel="external">微博原文</a>疑似已被删除）引起了非常多的讨论，但关于如何避免上当受骗的具体方法我一直查不到，因此惶恐不安如临大敌地迎接了这一天的行程。</p>
 <p>还好，一路上貌似并没有受骗<del>，其实是因为现在是淡季中的淡季，骗子都懒得出来行骗了233</del>，于是就把今天的亲身体会总结一下放在这里供人参考吧。<del>这小破站有人会看吗233</del></p>
@@ -895,7 +899,7 @@
     <link href="https://lucka.moe/2017/01/06/cpp-note/"/>
     <id>https://lucka.moe/2017/01/06/cpp-note/</id>
     <published>2017-01-05T17:12:56.000Z</published>
-    <updated>2017-01-12T18:21:57.000Z</updated>
+    <updated>2017-01-05T17:12:56.000Z</updated>
     
     <content type="html"><![CDATA[<p>这些内容是在C++考试前突击复习整理出来的，一些零碎知识、代码和容易混淆、忘记的知识。</p>
 <p>这些对编程实践可能并没有什么用，但对于考试的填空选择可能用处不少，因此写出来供我自己和大家参考。</p>
@@ -1029,7 +1033,7 @@
     <link href="https://lucka.moe/2017/01/01/2016-review/"/>
     <id>https://lucka.moe/2017/01/01/2016-review/</id>
     <published>2016-12-31T16:00:01.000Z</published>
-    <updated>2016-12-31T16:44:55.000Z</updated>
+    <updated>2016-12-31T16:00:01.000Z</updated>
     
     <content type="html"><![CDATA[<p>2017 新年快乐！</p>
 <p><img src="/images/2017/1/Lunasa&amp;Youmu.png" alt="" title="虽然很拙劣，但真的真的是用心画的！"></p>
@@ -1097,7 +1101,7 @@
     <link href="https://lucka.moe/2016/12/11/hack-into-reality/"/>
     <id>https://lucka.moe/2016/12/11/hack-into-reality/</id>
     <published>2016-12-11T13:26:36.000Z</published>
-    <updated>2016-12-11T18:25:58.000Z</updated>
+    <updated>2016-12-11T13:26:36.000Z</updated>
     
     <content type="html"><![CDATA[<p>关于最近在我身边发生的一些，Ingress 的事。</p>
 <p>本来写了很多，但是在写的过程中我感觉我的思维和心已经彻底冷却下来了。</p>
@@ -1146,7 +1150,7 @@
     <link href="https://lucka.moe/2016/12/03/your-name/"/>
     <id>https://lucka.moe/2016/12/03/your-name/</id>
     <published>2016-12-03T13:19:15.000Z</published>
-    <updated>2016-12-11T18:25:58.000Z</updated>
+    <updated>2016-12-03T13:19:15.000Z</updated>
     
     <content type="html"><![CDATA[<p>今天看了《你的名字。》</p>
 <p><em>请注意，本文含有剧透。</em></p>
@@ -1184,7 +1188,7 @@
     <link href="https://lucka.moe/2016/10/21/Hello-Hexo/"/>
     <id>https://lucka.moe/2016/10/21/Hello-Hexo/</id>
     <published>2016-10-20T17:27:49.000Z</published>
-    <updated>2016-12-11T18:25:58.000Z</updated>
+    <updated>2016-10-20T17:27:49.000Z</updated>
     
     <content type="html"><![CDATA[<p>在断断续续的干扰以及各种事件的影响下，Tumblr 终于上了某张黑名单。虽然我想大概没人会看，但即使如此自己的博客无法在大陆正常的浏览还是让我觉得「哎…这样还是不行呀」，想起当初从点点搬迁到 Tumblr 时自己的两点要求之一就是：</p>
 <blockquote>
