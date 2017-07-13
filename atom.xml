@@ -5,10 +5,57 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lucka.moe/"/>
-  <updated>2017-07-12T12:35:05.000Z</updated>
+  <updated>2017-07-13T19:06:11.000Z</updated>
   <id>https://lucka.moe/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日记工程：绞刑</title>
+    <link href="https://lucka.moe/2017/07/14/project-diary-hanging/"/>
+    <id>https://lucka.moe/2017/07/14/project-diary-hanging/</id>
+    <published>2017-07-13T19:06:11.000Z</published>
+    <updated>2017-07-13T19:06:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>日记工程</strong>（<em>Project Diary</em>）是一项由人类记忆组织发起并主导的信息收集工程，是人类记忆组织的一级工程之一。<br>日记工程的主要工作是：从世界各地尽可能地收集各种日记，将之整理、存档，并有条件、选择性地公开。<br>工程的发起人希望通过不同的人——从国家领导人到普通平民——的日记，发掘不同的角度来回顾那段历史，并为可能存在的未来留下一份值得打开的遗产。</p>
+<h2 id=""><a href="#" class="headerlink" title=""></a><a id="more"></a></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">************* METADATA *************</div><div class="line">SERIAL CODE: B-02-00029AD9-1037</div><div class="line">AUTHOR: 宮崎　秋水</div><div class="line">DATE: ████-02-11</div><div class="line">LANGUAGE: JA</div><div class="line">TRANSLATED: TRUE</div><div class="line">PUBLIC: TRUE</div><div class="line">************************************</div></pre></td></tr></table></figure>
+<p>乐观地估计，将来的三个月都不能休息了。</p>
+<p>但我还是非常的兴奋，今天公司召开了开发会议，说有确切的消息表明一个月后新的《刑法》修正案草案会公布，而这部修正案主要目的是对各种处刑方法进行规范，换言之就是要规定统一的行刑设备标准。目前全国监狱的设备质量参差不齐，就目前掌握到的信息来看，新修正案实施后全国80%的行刑设备都必须更换，这对我们公司来说无疑是笔大生意。</p>
+<p>公司已经组建了二十多支团队分别负责不同的设备研发，而我被分配到绞刑设备研发团队，这是我入职以来第一次参与到全新的产品研发项目中，希望我能做好。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">************* METADATA *************</div><div class="line">SERIAL CODE: B-02-00029AD9-1040</div><div class="line">AUTHOR: 宮崎　秋水</div><div class="line">DATE: ████-02-25</div><div class="line">LANGUAGE: JA</div><div class="line">TRANSLATED: TRUE</div><div class="line">PUBLIC: TRUE</div><div class="line">************************************</div></pre></td></tr></table></figure>
+<p>这几天可算是废寝忘食地研究了「绞刑」，基于已有产品的新产品设计草案估计明后天就能出了。</p>
+<p>绞刑是一种非常古老的行刑方式，到今天仍然非常普遍。虽然绞刑看上去非常简单——在罪犯的脖子上套上绳子，然后使其从空中坠下，断气身亡，但实际上这里面的学问非常多。</p>
+<p>死刑和自缢非常接近。多数自杀者选择自缢，首先，一般认为绳索勒住脖子之后对神经的压迫会导致自杀者在几秒内失去意识，可以避免部分痛苦；其次，自缢的死亡率非常高，自杀者基本都能如其所愿，极少有自杀不成的案例，因此落下终身残疾的更是闻所未闻；其三，非常方便而且对周遭影响非常少，服用安眠药或毒药自杀目前在我国基本上是不可行的，烧炭自杀则会造成大范围影响，甚至导致在死亡前被发现、抢救而落下终身残疾。</p>
+<p>而作为一个现代化的人道的行刑设备，必须使每一项好处都得到充分的保障，这是新《刑法》修正案的目的，也是我们团队正在为之奋斗的目标。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">************* METADATA *************</div><div class="line">SERIAL CODE: B-02-00029AD9-1041</div><div class="line">AUTHOR: 宮崎　秋水</div><div class="line">DATE: ████-03-17</div><div class="line">LANGUAGE: JA</div><div class="line">TRANSLATED: TRUE</div><div class="line">PUBLIC: TRUE</div><div class="line">************************************</div></pre></td></tr></table></figure>
+<p>和之前的消息一致，新的《刑法》修正案草案在昨晚的新闻中被正式公布了，如果没有意外，修正案预计将在三个月后正式实施。</p>
+<p>今天公司开了会，这部修正案对我们公司来说意义非常重大，因为它首次详细地列出了各种处刑方法的细则，包括死刑，对处刑设备也提出了非常详细但严苛的要求。</p>
+<p>大部分要求在我们的预期之内，极少数超出预期的要求非常容易修正，对成本应该不会有影响。</p>
+<p>很长时间没写日记了，可能是太累了吧，不管怎么说，接下来的两个月还得加把劲呐。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">************* METADATA *************</div><div class="line">SERIAL CODE: B-02-00029AD9-1042</div><div class="line">AUTHOR: 宮崎　秋水</div><div class="line">DATE: ████-04-26</div><div class="line">LANGUAGE: JA</div><div class="line">TRANSLATED: TRUE</div><div class="line">PUBLIC: TRUE</div><div class="line">************************************</div></pre></td></tr></table></figure>
+<p>之前的估计完全错误了——我预计新产品的研发至少要持续三个月，实际上我们只用了两个多月，新型绞刑台已经完全通过了公司的模拟测试，宣传文案和政府招标参与计划已经在拟定了。</p>
+<p>之前对绞刑没有太多的研究，对它的认识大概和一般人对自缢的认识差不多，但真正参与到产品研发之后才发现很多事并不是那么回事。</p>
+<p>大多数人认为在自缢开始之后自杀者会快速失去意识——没错，但这是有要求的，绳索的韧度、宽度、下坠时产生的冲击力、震荡以及自杀者颈部的构造都会对其产生影响，比如自杀者体重过轻、绳索过宽等肯能导致神经和气管无法被有效压迫，这会带来极大痛苦，对自杀者而言这会促使其放弃自杀，而对于绞刑，这非常的不人道；但如果体重过重、冲击力过大，则可能导致脖子被扯断，这也被认为是不人道的，即使人会瞬间失去知觉并死亡。</p>
+<p>因此，保证罪犯在行刑时快速失去意识就成了新修正案以及新行刑设备的重中之重。我们为之设计了一套检测装置，获取罪犯的身高、体重、颈部构造等数据，并通过专门设计的算法来选取绳索、设定下坠高度，并配置了牵引装置以控制下坠速度和冲击力。行刑人员只需要执行屏幕上的指令即可，任何一个拥有识字能力的人都可以操作这台设备。</p>
+<p>嘛，我总算可以休息了。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">************* METADATA *************</div><div class="line">SERIAL CODE: B-02-00029AD9-1051</div><div class="line">AUTHOR: 宮崎　秋水</div><div class="line">DATE: ████-05-15</div><div class="line">LANGUAGE: JA</div><div class="line">TRANSLATED: TRUE</div><div class="line">PUBLIC: TRUE</div><div class="line">************************************</div></pre></td></tr></table></figure>
+<p>值得庆祝的一天，在政府的招标采购中，我们公司的设备全部中标，我真心为由我的心血凝聚而成的智能绞刑台感到自豪。</p>
+<p>我可以拍着胸脯保证，目前的世界上，我们的绞刑台是最先进的。行刑开始后，他们会在三秒钟内失去意识，颈部动脉供血中断，氧气开始干涸，大脑渐渐死亡。当他们被放下来，他们将不再犯罪，不再思想犯罪，不再思想。</p>
+<p>当然，死刑的另一个目的是震慑，在观看绞刑直播的同时，我们也在对观众实施心灵上的绞刑：同样地，行刑开始后，他们会在几秒钟内失去意识，颈动脉供血中断，氧气开始干涸，大脑渐渐死亡。不过对他们来说，绳索勒死的只有大脑。当他们被放下来，身体在神经中枢的支配下将会继续活动，他们将重获新生，他们将不再犯罪，不再思想犯罪，不再思想。</p>
+<p>不过，有极少数个体的大脑过于顽强，行刑时间过长，身体却先于大脑死亡。他们无法与我们一起获得新生，他们是病态的，无法在这个国家存在下去，也不能在这个国家存在下去。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;日记工程&lt;/strong&gt;（&lt;em&gt;Project Diary&lt;/em&gt;）是一项由人类记忆组织发起并主导的信息收集工程，是人类记忆组织的一级工程之一。&lt;br&gt;日记工程的主要工作是：从世界各地尽可能地收集各种日记，将之整理、存档，并有条件、选择性地公开。&lt;br&gt;工程的发起人希望通过不同的人——从国家领导人到普通平民——的日记，发掘不同的角度来回顾那段历史，并为可能存在的未来留下一份值得打开的遗产。&lt;/p&gt;
+&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;
+    
+    </summary>
+    
+    
+      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
+    
+  </entry>
   
   <entry>
     <title>鼠标</title>
