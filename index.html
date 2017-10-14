@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 
 
 
@@ -10,11 +10,19 @@
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#010333">
+
+
+
+
+
+
 
 
 
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
+
 
 
 
@@ -80,19 +88,23 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=5.1.3">
 
 
 
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Lucka" type="application/atom+xml" />
 
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+  <link rel="alternate" href="/atom.xml" title="LUCKA" type="application/atom+xml" />
 
 
 
@@ -100,11 +112,11 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="Lucka">
+<meta property="og:title" content="LUCKA">
 <meta property="og:url" content="https://lucka.moe/index.html">
-<meta property="og:site_name" content="Lucka">
+<meta property="og:site_name" content="LUCKA">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Lucka">
+<meta name="twitter:title" content="LUCKA">
 
 
 
@@ -113,9 +125,11 @@
   var CONFIG = {
     root: '/',
     scheme: 'Pisces',
-    sidebar: {"position":"left","display":"always","offset":12,"offset_float":0,"b2t":true,"scrollpercent":true},
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"always","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
     fancybox: true,
-    motion: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -136,11 +150,7 @@
 
 
 
-  <title> Lucka </title>
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
+  <title>LUCKA</title>
   
 
 
@@ -150,20 +160,17 @@
 
 
 
+</head>
 
-
-
-
-
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left 
+  page-home">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -174,7 +181,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Lucka</span>
+        <span class="site-title">LUCKA</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -210,7 +217,7 @@
       
         
         <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
+          <a href="/about/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-info-circle"></i> <br />
             
@@ -220,7 +227,7 @@
       
         
         <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
+          <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
@@ -230,7 +237,7 @@
       
         
         <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
+          <a href="/tags/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
@@ -266,7 +273,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://lucka.moe/2017/10/11/dhelmise-and-boy/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -276,7 +287,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Lucka">
+      <meta itemprop="name" content="LUCKA">
     </span>
 
     
@@ -285,16 +296,8 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/10/11/dhelmise-and-boy/" itemprop="url">
-                  破破舵轮和男孩
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/10/11/dhelmise-and-boy/" itemprop="url">破破舵轮和男孩</a></h1>
         
 
         <div class="post-meta">
@@ -326,7 +329,8 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/2017/10/11/dhelmise-and-boy/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/10/11/dhelmise-and-boy/" itemprop="commentCount"></span>
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/10/11/dhelmise-and-boy/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -345,7 +349,9 @@
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -364,15 +370,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
+    
 
     <footer class="post-footer">
       
@@ -386,6 +392,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -398,7 +408,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://lucka.moe/2017/10/05/end-of-a-dream/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -408,7 +422,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Lucka">
+      <meta itemprop="name" content="LUCKA">
     </span>
 
     
@@ -417,16 +431,8 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/10/05/end-of-a-dream/" itemprop="url">
-                  尽头
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/10/05/end-of-a-dream/" itemprop="url">尽头</a></h1>
         
 
         <div class="post-meta">
@@ -458,7 +464,8 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/2017/10/05/end-of-a-dream/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/10/05/end-of-a-dream/" itemprop="commentCount"></span>
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/10/05/end-of-a-dream/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -477,7 +484,9 @@
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -498,15 +507,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
+    
 
     <footer class="post-footer">
       
@@ -520,6 +529,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -532,7 +545,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://lucka.moe/2017/04/03/yuyuko-mission/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -542,7 +559,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Lucka">
+      <meta itemprop="name" content="LUCKA">
     </span>
 
     
@@ -551,16 +568,8 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/04/03/yuyuko-mission/" itemprop="url">
-                  Ingress 系列任务「西行长安幽幽子」
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/04/03/yuyuko-mission/" itemprop="url">Ingress 系列任务「西行长安幽幽子」</a></h1>
         
 
         <div class="post-meta">
@@ -592,7 +601,8 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/2017/04/03/yuyuko-mission/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/04/03/yuyuko-mission/" itemprop="commentCount"></span>
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/04/03/yuyuko-mission/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -611,7 +621,9 @@
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -636,15 +648,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
+    
 
     <footer class="post-footer">
       
@@ -658,6 +670,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -670,7 +686,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://lucka.moe/2017/07/14/project-diary-hanging/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -680,7 +700,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Lucka">
+      <meta itemprop="name" content="LUCKA">
     </span>
 
     
@@ -689,16 +709,8 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/07/14/project-diary-hanging/" itemprop="url">
-                  日记工程：绞刑
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/07/14/project-diary-hanging/" itemprop="url">日记工程：绞刑</a></h1>
         
 
         <div class="post-meta">
@@ -730,7 +742,8 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/2017/07/14/project-diary-hanging/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/07/14/project-diary-hanging/" itemprop="commentCount"></span>
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/07/14/project-diary-hanging/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -749,7 +762,9 @@
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -768,15 +783,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
+    
 
     <footer class="post-footer">
       
@@ -790,6 +805,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -802,7 +821,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://lucka.moe/2017/07/12/mouse/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -812,7 +835,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Lucka">
+      <meta itemprop="name" content="LUCKA">
     </span>
 
     
@@ -821,16 +844,8 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/07/12/mouse/" itemprop="url">
-                  鼠标
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/07/12/mouse/" itemprop="url">鼠标</a></h1>
         
 
         <div class="post-meta">
@@ -862,7 +877,8 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/2017/07/12/mouse/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/07/12/mouse/" itemprop="commentCount"></span>
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/07/12/mouse/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -881,7 +897,9 @@
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -900,15 +918,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
+    
 
     <footer class="post-footer">
       
@@ -922,6 +940,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -934,7 +956,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://lucka.moe/2017/07/08/project-diary-relics/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -944,7 +970,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Lucka">
+      <meta itemprop="name" content="LUCKA">
     </span>
 
     
@@ -953,16 +979,8 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/07/08/project-diary-relics/" itemprop="url">
-                  日记工程：遗址
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/07/08/project-diary-relics/" itemprop="url">日记工程：遗址</a></h1>
         
 
         <div class="post-meta">
@@ -994,7 +1012,8 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/2017/07/08/project-diary-relics/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/07/08/project-diary-relics/" itemprop="commentCount"></span>
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/07/08/project-diary-relics/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -1013,7 +1032,9 @@
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -1033,15 +1054,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
+    
 
     <footer class="post-footer">
       
@@ -1055,6 +1076,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1067,7 +1092,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://lucka.moe/2017/05/27/impression-ganzhou-mission/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1077,7 +1106,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Lucka">
+      <meta itemprop="name" content="LUCKA">
     </span>
 
     
@@ -1086,16 +1115,8 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/05/27/impression-ganzhou-mission/" itemprop="url">
-                  Ingress 系列任务「印象赣州」
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/05/27/impression-ganzhou-mission/" itemprop="url">Ingress 系列任务「印象赣州」</a></h1>
         
 
         <div class="post-meta">
@@ -1127,7 +1148,8 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/2017/05/27/impression-ganzhou-mission/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/05/27/impression-ganzhou-mission/" itemprop="commentCount"></span>
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/05/27/impression-ganzhou-mission/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -1146,7 +1168,9 @@
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -1169,15 +1193,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
+    
 
     <footer class="post-footer">
       
@@ -1191,6 +1215,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1203,7 +1231,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://lucka.moe/2017/04/12/blog-customizing/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1213,7 +1245,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Lucka">
+      <meta itemprop="name" content="LUCKA">
     </span>
 
     
@@ -1222,16 +1254,8 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/04/12/blog-customizing/" itemprop="url">
-                  Hexo 博客改造笔记
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/04/12/blog-customizing/" itemprop="url">Hexo 博客改造笔记</a></h1>
         
 
         <div class="post-meta">
@@ -1263,7 +1287,8 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/2017/04/12/blog-customizing/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/04/12/blog-customizing/" itemprop="commentCount"></span>
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/04/12/blog-customizing/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -1282,7 +1307,9 @@
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -1301,15 +1328,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
+    
 
     <footer class="post-footer">
       
@@ -1323,6 +1350,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1335,7 +1366,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://lucka.moe/2017/04/08/meboy-tutorial/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1345,7 +1380,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Lucka">
+      <meta itemprop="name" content="LUCKA">
     </span>
 
     
@@ -1354,16 +1389,8 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/04/08/meboy-tutorial/" itemprop="url">
-                  MeBoy 教程两篇
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/04/08/meboy-tutorial/" itemprop="url">MeBoy 教程两篇</a></h1>
         
 
         <div class="post-meta">
@@ -1395,7 +1422,8 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/2017/04/08/meboy-tutorial/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/04/08/meboy-tutorial/" itemprop="commentCount"></span>
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/04/08/meboy-tutorial/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -1414,7 +1442,9 @@
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -1435,15 +1465,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
+    
 
     <footer class="post-footer">
       
@@ -1457,6 +1487,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1469,7 +1503,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://lucka.moe/2017/03/25/sunmoon-clothes-statistic/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1479,7 +1517,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Lucka">
+      <meta itemprop="name" content="LUCKA">
     </span>
 
     
@@ -1488,16 +1526,8 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/03/25/sunmoon-clothes-statistic/" itemprop="url">
-                  精灵宝可梦 太阳／月亮 服装统计
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/03/25/sunmoon-clothes-statistic/" itemprop="url">精灵宝可梦 太阳／月亮 服装统计</a></h1>
         
 
         <div class="post-meta">
@@ -1529,7 +1559,8 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/2017/03/25/sunmoon-clothes-statistic/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/03/25/sunmoon-clothes-statistic/" itemprop="commentCount"></span>
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/03/25/sunmoon-clothes-statistic/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -1548,7 +1579,9 @@
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -1567,15 +1600,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
+    
 
     <footer class="post-footer">
       
@@ -1589,6 +1622,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1601,7 +1638,7 @@
   </nav>
 
 
-          
+
           </div>
           
 
@@ -1621,112 +1658,107 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
+    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="http://s.gravatar.com/avatar/f03d18971cd558e09f51ad19923bf077?s=256"
-               alt="" />
-          <p class="site-author-name" itemprop="name"></p>
-           
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="http://s.gravatar.com/avatar/f03d18971cd558e09f51ad19923bf077?s=256"
+                alt="" />
+            
+              <p class="site-author-name" itemprop="name"></p>
               <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">20</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
           
-        </div>
-        <nav class="site-state motion-element">
-        
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
           
-            <div class="site-state-item site-state-posts">
-              <a href="/archives">
-                <span class="site-state-item-count">20</span>
-                <span class="site-state-item-name">日志</span>
+
+          <div class="links-of-author motion-element">
+            
+              
+                <span class="links-of-author-item">
+                  <a href="https://twitter.com/LuckaZhao" target="_blank" title="Twitter">
+                    
+                      <i class="fa fa-fw fa-twitter"></i>Twitter</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/lucka-me" target="_blank" title="GitHub">
+                    
+                      <i class="fa fa-fw fa-github-alt"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="http://steamcommunity.com/id/lucka_me/" target="_blank" title="Steam">
+                    
+                      <i class="fa fa-fw fa-steam"></i>Steam</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="http://bangumi.tv/user/309731" target="_blank" title="Bangumi">
+                    
+                      <i class="fa fa-fw fa-star"></i>Bangumi</a>
+                </span>
+              
+            
+          </div>
+
+          
+          
+            <div class="cc-license motion-element" itemprop="license">
+              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" target="_blank">
+                <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
               </a>
             </div>
           
 
           
-
-          
-            <div class="site-state-item site-state-tags">
-              <a href="/tags">
-                <span class="site-state-item-count">9</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
           
 
-        </nav>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
-          </div>
-        
-
-        <div class="links-of-author motion-element">
           
-            
-              <span class="links-of-author-item">
-                <a href="https://twitter.com/LuckaZhao" target="_blank" title="Twitter">
-                  
-                    <i class="fa fa-fw fa-twitter"></i>
-                  
-                  Twitter
-                </a>
-              </span>
-            
-              <span class="links-of-author-item">
-                <a href="https://github.com/lucka-me" target="_blank" title="GitHub">
-                  
-                    <i class="fa fa-fw fa-github-alt"></i>
-                  
-                  GitHub
-                </a>
-              </span>
-            
-              <span class="links-of-author-item">
-                <a href="http://steamcommunity.com/id/lucka_me/" target="_blank" title="Steam">
-                  
-                    <i class="fa fa-fw fa-steam"></i>
-                  
-                  Steam
-                </a>
-              </span>
-            
-              <span class="links-of-author-item">
-                <a href="http://bangumi.tv/user/309731" target="_blank" title="Bangumi">
-                  
-                    <i class="fa fa-fw fa-star"></i>
-                  
-                  Bangumi
-                </a>
-              </span>
-            
-          
+
         </div>
-
-        
-        
-          <div class="cc-license motion-element" itemprop="license">
-            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" target="_blank">
-              <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
-            </a>
-          </div>
-        
-
-        
-        
-
-        
-
-
       </section>
 
       
@@ -1750,37 +1782,43 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2017</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder"></span>
+  <span class="author" itemprop="copyrightHolder">true</span>
+
+  
 </div>
 
 
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Pisces
-  </a>
-</div>
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.3</div>
+
+
 
 
         
+
+
+
+
+
+
 
         
       </div>
     </footer>
 
     
-    
+
   </div>
 
   
@@ -1800,6 +1838,14 @@
 
 
   
+
+
+
+
+
+
+
+
 
 
 
@@ -1826,57 +1872,42 @@
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
 
 
 
   
-
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.3"></script>
 
 
 
   
 
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
 
 
   
 
-    <script type="text/javascript">
-      var disqus_shortname = 'luckablog';
-      var disqus_identifier = 'index.html';
 
-      var disqus_title = "";
+  
 
+    
+      <script id="dsq-count-scr" src="https://luckablog.disqus.com/count.js" async></script>
+    
 
-      function run_disqus_script(disqus_script) {
-        var dsq = document.createElement('script');
-        dsq.type = 'text/javascript';
-        dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      }
+    
 
-      run_disqus_script('count.js');
-
-      
-
-    </script>
   
 
 
@@ -1888,8 +1919,14 @@
 
 
 
+
+
+
   
-  
+
+
+
+
 
   
 
@@ -1899,6 +1936,7 @@
 
   
 
+  
 
   
 
