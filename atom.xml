@@ -5,10 +5,32 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lucka.moe/"/>
-  <updated>2017-10-11T13:30:00.000Z</updated>
+  <updated>2017-11-06T02:33:00.000Z</updated>
   <id>https://lucka.moe/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>翻译：&quot;Doki Doki Literature Club&quot; Has More To It Than We Think.</title>
+    <link href="https://lucka.moe/2017/11/06/DDLC-more/"/>
+    <id>https://lucka.moe/2017/11/06/DDLC-more/</id>
+    <published>2017-11-06T02:33:00.000Z</published>
+    <updated>2017-11-06T02:33:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;上周六玩了一下午 Doki Doki Literature Club! &lt;sup&gt;&lt;a href=&quot;http://ddlc.moe&quot; title=&quot;Doki Doki Literature Club!&quot;&gt;Official&lt;/a&gt; · &lt;a href=&quot;http://store.steampowered.com/app/698780/Doki_Doki_Literature_Club/&quot; title=&quot;Steam 上的 Doki Doki Literature Club!&quot;&gt;Steam&lt;/a&gt;&lt;/sup&gt;（&lt;em&gt;心跳心跳文学社&lt;/em&gt;），震撼之余也意识到游戏里还有很多等待玩家发掘的隐藏内容，其中最明显的就是&lt;code&gt;characters&lt;/code&gt;文件夹下的四个文件，显然它们并不是所谓的「角色数据文件」而是完全由隐藏信息构成的。今天看到 reddit 上的这篇文章，感觉这个谜差不多(?)解出来了，正好有点时间，试着吧原文翻译一下吧。&lt;/p&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://www.reddit.com/r/ARG/comments/71z2pt/doki_doki_literature_club_has_more_to_it_than_we/&quot; title=&quot;reddit&quot;&gt;“Doki Doki Literature Club” Has More To It Than We Think.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;擅自翻译的，还没取得原作者授权。&lt;/em&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Game" scheme="https://lucka.moe/tags/Game/"/>
+    
+      <category term="Translate" scheme="https://lucka.moe/tags/Translate/"/>
+    
+  </entry>
   
   <entry>
     <title>破破舵轮和男孩</title>
@@ -190,24 +212,6 @@
     
     
       <category term="Ingress" scheme="https://lucka.moe/tags/Ingress/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>精灵宝可梦 太阳／月亮 服装统计</title>
-    <link href="https://lucka.moe/2017/03/25/sunmoon-clothes-statistic/"/>
-    <id>https://lucka.moe/2017/03/25/sunmoon-clothes-statistic/</id>
-    <published>2017-03-25T11:42:58.000Z</published>
-    <updated>2017-03-25T11:42:58.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;之前一鼓作气把拖了三个月的&lt;a href=&quot;https://wiki.52poke.com/wiki/服装样式列表（SM）&quot; title=&quot;服装样式列表（SM） - 神奇宝贝百科&quot;&gt;日月服装样式列表&lt;/a&gt;做完了，今天抽空把一些价格统计也补了上去。&lt;br&gt;然后简单统计了一下，看看这个最烧钱的服装系统到底是怎么烧钱的。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Pokémon" scheme="https://lucka.moe/tags/Pokemon/"/>
     
   </entry>
   
