@@ -5,10 +5,30 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lucka.moe/"/>
-  <updated>2017-11-06T02:33:00.000Z</updated>
+  <updated>2017-12-01T15:03:11.000Z</updated>
   <id>https://lucka.moe/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日记工程：回家</title>
+    <link href="https://lucka.moe/2017/12/01/project-diary-home/"/>
+    <id>https://lucka.moe/2017/12/01/project-diary-home/</id>
+    <published>2017-12-01T15:03:11.000Z</published>
+    <updated>2017-12-01T15:03:11.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;日记工程&lt;/strong&gt;（&lt;em&gt;Project Diary&lt;/em&gt;）是一项由人类记忆组织发起并主导的信息收集工程，是人类记忆组织的一级工程之一。&lt;br&gt;日记工程的主要工作是：从世界各地尽可能地收集各种日记，将之整理、存档，并有条件、选择性地公开。&lt;br&gt;工程的发起人希望通过不同的人——从国家领导人到普通平民——的日记，发掘不同的角度来回顾那段历史，并为可能存在的未来留下一份值得打开的遗产。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
+    
+      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
+    
+  </entry>
   
   <entry>
     <title>翻译：&quot;Doki Doki Literature Club&quot; Has More To It Than We Think.</title>
@@ -46,9 +66,9 @@
     </summary>
     
     
-      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
-    
       <category term="Pokémon" scheme="https://lucka.moe/tags/Pokemon/"/>
+    
+      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
     
   </entry>
   
@@ -120,7 +140,6 @@
     <summary type="html">
     
       &lt;p&gt;&lt;strong&gt;日记工程&lt;/strong&gt;（&lt;em&gt;Project Diary&lt;/em&gt;）是一项由人类记忆组织发起并主导的信息收集工程，是人类记忆组织的一级工程之一。&lt;br&gt;日记工程的主要工作是：从世界各地尽可能地收集各种日记，将之整理、存档，并有条件、选择性地公开。&lt;br&gt;工程的发起人希望通过不同的人——从国家领导人到普通平民——的日记，发掘不同的角度来回顾那段历史，并为可能存在的未来留下一份值得打开的遗产。&lt;/p&gt;
-&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;
     
     </summary>
     
@@ -188,30 +207,6 @@
     
     
       <category term="Tech" scheme="https://lucka.moe/tags/Tech/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ingress 系列任务「西行长安幽幽子」</title>
-    <link href="https://lucka.moe/2017/04/03/yuyuko-mission/"/>
-    <id>https://lucka.moe/2017/04/03/yuyuko-mission/</id>
-    <published>2017-04-03T15:58:36.000Z</published>
-    <updated>2017-09-06T15:06:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;&lt;strong&gt;本系列任务已全部通过审核&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;拼图效果预览&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/2017/4/yuyuko-mission-preview.png&quot; alt=&quot;效果预览&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.pixiv.net/member_illust.php?mode=medium&amp;amp;illust_id=3339758&quot; title=&quot;「優雅に咲かせ～」／「伍長」のイラスト [pixiv]&quot;&gt;優雅に咲かせ～&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;by &lt;a href=&quot;https://www.pixiv.net/member.php?id=90464&quot; title=&quot;「伍長」的个人资料 [pixiv]&quot;&gt;伍長&lt;/a&gt; 2009/03/06 on &lt;a href=&quot;http://www.pixiv.net/&quot; title=&quot;[pixiv]&quot;&gt;pixiv&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;已经过原作者许可。&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-      <category term="Ingress" scheme="https://lucka.moe/tags/Ingress/"/>
     
   </entry>
   
