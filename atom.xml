@@ -5,10 +5,30 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lucka.moe/"/>
-  <updated>2017-12-08T13:10:00.000Z</updated>
+  <updated>2017-12-31T16:00:01.000Z</updated>
   <id>https://lucka.moe/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2017 Review</title>
+    <link href="https://lucka.moe/2018/01/01/2017-review/"/>
+    <id>https://lucka.moe/2018/01/01/2017-review/</id>
+    <published>2017-12-31T16:00:01.000Z</published>
+    <updated>2017-12-31T16:00:01.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2018新年快乐！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2018/1/Kotori &amp;amp; Rowlet.png&quot; alt=&quot;&quot; title=&quot;感觉木木枭被画得好扁233&quot;&gt;&lt;/p&gt;
+&lt;p&gt;然后，和以前一样，回顾一下2017年吧。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Journey" scheme="https://lucka.moe/tags/Journey/"/>
+    
+  </entry>
   
   <entry>
     <title>北京折叠·续</title>
@@ -91,9 +111,9 @@
     </summary>
     
     
-      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
-    
       <category term="Pokémon" scheme="https://lucka.moe/tags/Pokemon/"/>
+    
+      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
     
   </entry>
   
@@ -194,24 +214,6 @@
     
     
       <category term="Ingress" scheme="https://lucka.moe/tags/Ingress/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo 博客改造笔记</title>
-    <link href="https://lucka.moe/2017/04/12/blog-customizing/"/>
-    <id>https://lucka.moe/2017/04/12/blog-customizing/</id>
-    <published>2017-04-12T14:44:58.000Z</published>
-    <updated>2017-04-12T14:44:58.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近开始不满足于 &lt;a href=&quot;http://theme-next.iissnan.com&quot; title=&quot;NexT 使用文档&quot;&gt;NexT&lt;/a&gt; 提供的功能，想修改定制一下，于是小心翼翼地查资料，小心翼翼地修改……然后总结一下放在这里。&lt;br&gt;以后也会进行一些改造（大概），毕竟有很多想做的……这篇文章也会跟着更新的。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Tech" scheme="https://lucka.moe/tags/Tech/"/>
     
   </entry>
   
