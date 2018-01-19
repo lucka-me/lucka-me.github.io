@@ -5,10 +5,30 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lucka.moe/"/>
-  <updated>2018-01-01T10:19:00.000Z</updated>
+  <updated>2018-01-19T03:09:18.000Z</updated>
   <id>https://lucka.moe/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Seed&amp;#58; π</title>
+    <link href="https://lucka.moe/2018/01/19/seed-pi/"/>
+    <id>https://lucka.moe/2018/01/19/seed-pi/</id>
+    <published>2018-01-19T03:09:18.000Z</published>
+    <updated>2018-01-19T03:09:18.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;「爸爸，我们今天数学课学习了圆周率！」&lt;br&gt;「爸爸，我会背圆周率了！爸爸听小羽给你背！3.14159…」&lt;br&gt;「爸爸！我能背到小数点后40位了，最后面是奶奶的生日，我记得好清楚！好神奇啊！」&lt;br&gt;「爸爸，我们的通用量子计算机原型夏娜测试成功了，她的测试程序是我写的圆周率计算程序，计算10的12次方精度只用了12秒，我真的好激动！」&lt;br&gt;「爸爸……」&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
+    
+      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
+    
+  </entry>
   
   <entry>
     <title>2017 Review</title>
@@ -192,28 +212,6 @@
       <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
     
       <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ingress 系列任务「印象赣州」</title>
-    <link href="https://lucka.moe/2017/05/27/impression-ganzhou-mission/"/>
-    <id>https://lucka.moe/2017/05/27/impression-ganzhou-mission/</id>
-    <published>2017-05-27T11:18:41.000Z</published>
-    <updated>2017-05-27T11:18:41.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;&lt;strong&gt;拼图效果预览&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;目前任务已全部通过&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/2017/5/impression-ganzhou-mission-preview.png&quot; alt=&quot;效果预览&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;图片为自制。&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-      <category term="Ingress" scheme="https://lucka.moe/tags/Ingress/"/>
     
   </entry>
   
