@@ -5,10 +5,31 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lucka.moe/"/>
-  <updated>2018-01-19T03:09:18.000Z</updated>
+  <updated>2018-02-24T06:02:54.000Z</updated>
   <id>https://lucka.moe/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>合作维基</title>
+    <link href="https://lucka.moe/2018/02/24/coworking-for-wiki/"/>
+    <id>https://lucka.moe/2018/02/24/coworking-for-wiki/</id>
+    <published>2018-02-24T06:02:54.000Z</published>
+    <updated>2018-02-24T06:02:54.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;我应该怎样去参与一个基于 MediaWiki 的百科网站的建设？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;昨晚，百科两位积怨已久的管理员闹掰了。之前也时不时会看到他们之间越来越激烈的争执，但我并没有时间和精力更不想去参与他们的斗争，我只想做好自己的工作，也就是&lt;del&gt;「当条老咸鱼」&lt;/del&gt;「&lt;strong&gt;在自己的兴趣范围内满足自己的兴趣&lt;/strong&gt;」，并且在百科提供的框架下做到「&lt;strong&gt;让所有人都认可我的工作&lt;/strong&gt;」。&lt;/p&gt;
+&lt;p&gt;至于怎么做，以下是我的一点看法。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Journey" scheme="https://lucka.moe/tags/Journey/"/>
+    
+  </entry>
   
   <entry>
     <title>Seed&amp;#58; π</title>
@@ -192,26 +213,6 @@
     
     
       <category term="Tech" scheme="https://lucka.moe/tags/Tech/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日记工程：遗址</title>
-    <link href="https://lucka.moe/2017/07/08/project-diary-relics/"/>
-    <id>https://lucka.moe/2017/07/08/project-diary-relics/</id>
-    <published>2017-07-08T05:23:35.000Z</published>
-    <updated>2017-07-08T05:23:35.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;日记工程&lt;/strong&gt;（&lt;em&gt;Project Diary&lt;/em&gt;）是一项由人类记忆组织发起并主导的信息收集工程，是人类记忆组织的一级工程之一。&lt;br&gt;日记工程的主要工作是：从世界各地尽可能地收集各种日记，将之整理、存档，并有条件、选择性地公开。&lt;br&gt;工程的发起人希望通过不同的人——从国家领导人到普通平民——的日记，发掘不同的角度来回顾那段历史，并为可能存在的未来留下一份值得打开的遗产。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
-    
-      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
     
   </entry>
   
