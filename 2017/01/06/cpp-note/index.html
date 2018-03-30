@@ -137,25 +137,18 @@
   <meta name="keywords" content="Program," />
 
 
-<meta name="description" content="这些内容是在C++考试前突击复习整理出来的，一些零碎知识、代码和容易混淆、忘记的知识。
-这些对编程实践可能并没有什么用，但对于考试的填空选择可能用处不少，因此写出来供我自己和大家参考。
-因为时间原因，有些内容还没有经过编程证实，如果有错误还请联系我，我会加以改正。
-另外我打算在近期（期末考试结束后？）启用博客的评论系统，到时候方便交流啦～咕咕咕？">
+<meta name="description" content="这些内容是在C++考试前突击复习整理出来的，一些零碎知识、代码和容易混淆、忘记的知识。 这些对编程实践可能并没有什么用，但对于考试的填空选择可能用处不少，因此写出来供我自己和大家参考。 因为时间原因，有些内容还没有经过编程证实，如果有错误还请联系我，我会加以改正。 另外我打算在近期（期末考试结束后？）启用博客的评论系统，到时候方便交流啦～咕咕咕？">
+<meta name="keywords" content="Program">
 <meta property="og:type" content="article">
 <meta property="og:title" content="C++ 笔记">
 <meta property="og:url" content="https://lucka.moe/2017/01/06/cpp-note/index.html">
 <meta property="og:site_name" content="Lucka">
-<meta property="og:description" content="这些内容是在C++考试前突击复习整理出来的，一些零碎知识、代码和容易混淆、忘记的知识。
-这些对编程实践可能并没有什么用，但对于考试的填空选择可能用处不少，因此写出来供我自己和大家参考。
-因为时间原因，有些内容还没有经过编程证实，如果有错误还请联系我，我会加以改正。
-另外我打算在近期（期末考试结束后？）启用博客的评论系统，到时候方便交流啦～咕咕咕？">
+<meta property="og:description" content="这些内容是在C++考试前突击复习整理出来的，一些零碎知识、代码和容易混淆、忘记的知识。 这些对编程实践可能并没有什么用，但对于考试的填空选择可能用处不少，因此写出来供我自己和大家参考。 因为时间原因，有些内容还没有经过编程证实，如果有错误还请联系我，我会加以改正。 另外我打算在近期（期末考试结束后？）启用博客的评论系统，到时候方便交流啦～咕咕咕？">
+<meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2017-01-05T17:12:56.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="C++ 笔记">
-<meta name="twitter:description" content="这些内容是在C++考试前突击复习整理出来的，一些零碎知识、代码和容易混淆、忘记的知识。
-这些对编程实践可能并没有什么用，但对于考试的填空选择可能用处不少，因此写出来供我自己和大家参考。
-因为时间原因，有些内容还没有经过编程证实，如果有错误还请联系我，我会加以改正。
-另外我打算在近期（期末考试结束后？）启用博客的评论系统，到时候方便交流啦～咕咕咕？">
+<meta name="twitter:description" content="这些内容是在C++考试前突击复习整理出来的，一些零碎知识、代码和容易混淆、忘记的知识。 这些对编程实践可能并没有什么用，但对于考试的填空选择可能用处不少，因此写出来供我自己和大家参考。 因为时间原因，有些内容还没有经过编程证实，如果有错误还请联系我，我会加以改正。 另外我打算在近期（期末考试结束后？）启用博客的评论系统，到时候方便交流啦～咕咕咕？">
 
 
 
@@ -466,29 +459,29 @@
 </ul>
 <h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><ul>
 <li><p>函数模板</p>
-  <figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2&gt;;</div><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> C1, <span class="keyword">class</span> C2&gt;;</div></pre></td></tr></table></figure>
+  <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2&gt;;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> C1, <span class="keyword">class</span> C2&gt;;</span><br></pre></td></tr></table></figure>
 <p>  相当于生成了几个在使用时才确定的类，可以让函数在调用时确定某些参数的类型，如</p>
-  <figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">func</span><span class="params">(T1 a, T2 b)</span></span>;</div></pre></td></tr></table></figure>
+  <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">func</span><span class="params">(T1 a, T2 b)</span></span>;</span><br></pre></td></tr></table></figure>
 <p>  这个<code>func</code>中的<code>T1</code>和<code>T2</code>会随传入的参数类型的改变而改变，变成它<strong>第一个</strong>遇到的参数的类，然后在这个函数中的所有<code>T1</code>和<code>T2</code>都会变成相应的类，且只在这个函数的<strong>此次调用</strong>中生效。<br>  同时需要注意的是隐藏的类型转换（如<code>char</code>可以自动转换成<code>int</code>的这种）不起作用，如果参数表里用的都是<code>T</code>而传入的是两个不同类型的参数，那就会错，此时在调用时应该用强制类型转换或直接舍弃函数模板。</p>
 </li>
 <li><p>拷贝构造函数</p>
-  <figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">A(A &amp;a);</div></pre></td></tr></table></figure>
+  <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">A(A &amp;a);</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>运算符重载  </p>
 <ul>
 <li><p>用成员函数的方式  </p>
-  <figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">A <span class="keyword">operator</span> + (A &amp;a1, A &amp;a2);</div></pre></td></tr></table></figure>
+  <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">A <span class="keyword">operator</span> + (A &amp;a1, A &amp;a2);</span><br></pre></td></tr></table></figure>
 <p>  因为作为成员函数可以用<code>this</code>访问本对象的成员，因此可以省略参数<code>A &amp;a1</code>。</p>
 </li>
 <li><p>用友元函数的方式</p>
-  <figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">friend</span> A <span class="keyword">operator</span> + (A &amp;a1, A &amp;a2);</div></pre></td></tr></table></figure>
+  <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">friend</span> A <span class="keyword">operator</span> + (A &amp;a1, A &amp;a2);</span><br></pre></td></tr></table></figure>
 <p>  不能省略参数<code>A &amp;a1</code>。</p>
 <p>流插入运算符<code>&gt;&gt;</code>的第一个参数是<code>istream &amp;</code>；流提取运算符<code>&lt;&lt;</code>的第一个参数是<code>ostream &amp;</code>。</p>
 </li>
 </ul>
 </li>
 </ul>
-<h2 id="继承与派生"><a href="#继承与派生" class="headerlink" title="继承与派生"></a>继承与派生</h2><h3 id="虚继承和虚基类"><a href="#虚继承和虚基类" class="headerlink" title="虚继承和虚基类"></a>虚继承和虚基类</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">class</span> B: <span class="keyword">virtual</span> <span class="keyword">public</span> A</div></pre></td></tr></table></figure>
+<h2 id="继承与派生"><a href="#继承与派生" class="headerlink" title="继承与派生"></a>继承与派生</h2><h3 id="虚继承和虚基类"><a href="#虚继承和虚基类" class="headerlink" title="虚继承和虚基类"></a>虚继承和虚基类</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> B: <span class="keyword">virtual</span> <span class="keyword">public</span> A</span><br></pre></td></tr></table></figure>
 <p>在多重继承时避免二义性问题。</p>
 <p>基类<code>A</code>中的成员变量<code>a</code>如果派生出<code>B</code>、<code>C</code>，再由<code>B</code>、<code>C</code>派生出<code>D</code>的时候在<code>D</code>中访问<code>a</code>会出现二义性问题。<br>使用虚继承，即声明从<code>A</code>继承的<code>a</code>还是<code>A</code>的<code>a</code>，而不会变成<code>B</code>的<code>a</code>，从而在派生<code>D</code>的时候让<code>D</code>继承<code>A</code>的<code>a</code>，从而不会引起二义性问题。</p>
 <h3 id="赋值兼容规则"><a href="#赋值兼容规则" class="headerlink" title="赋值兼容规则"></a>赋值兼容规则</h3><ol>
@@ -497,18 +490,18 @@
 <li>基类对象的指针可指向派生类对象，也就是派生类的指针可以赋值给基类对象的指针，<strong>但在有多重继承时基类指针只能调用本基类在派生类对象中的成员，而无法调用其它基类在派生类对象中的成员</strong>。</li>
 <li>派生类对象可以初始化基类型的引用，<strong>但在有多重继承时基类引用只能调用本基类在派生类对象中的成员，而无法调用其它基类在派生类对象中的成员</strong>。</li>
 </ol>
-<h2 id="多态性与虚函数"><a href="#多态性与虚函数" class="headerlink" title="多态性与虚函数"></a>多态性与虚函数</h2><h3 id="虚函数"><a href="#虚函数" class="headerlink" title="虚函数"></a>虚函数</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">virtual</span> <span class="keyword">int</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span>)</span></span>;</div></pre></td></tr></table></figure>
+<h2 id="多态性与虚函数"><a href="#多态性与虚函数" class="headerlink" title="多态性与虚函数"></a>多态性与虚函数</h2><h3 id="虚函数"><a href="#虚函数" class="headerlink" title="虚函数"></a>虚函数</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="keyword">int</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span>)</span></span>;</span><br></pre></td></tr></table></figure>
 <ol>
 <li>在基类中声明一个成员函数<code>func</code>为虚函数。</li>
 <li>在派生类中声明一个同名成员函数<code>func</code>。</li>
 <li>用一个基类指针调用<code>func</code>时即可调用派生类的<code>func</code>；如果不将基类中的<code>func</code>声明为虚函数，则基类指针调用的是基类的<code>func</code>。</li>
 </ol>
 <p>注意，构造函数<strong>不能</strong>声明为虚函数。</p>
-<h4 id="纯虚函数"><a href="#纯虚函数" class="headerlink" title="纯虚函数"></a>纯虚函数</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">virtual</span> <span class="keyword">int</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span>)</span> <span class="keyword">const</span> </span>= <span class="number">0</span>;</div></pre></td></tr></table></figure>
+<h4 id="纯虚函数"><a href="#纯虚函数" class="headerlink" title="纯虚函数"></a>纯虚函数</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="keyword">int</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span>)</span> <span class="keyword">const</span> </span>= <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
 <p>只有声明，没有函数体，不能被调用，相当于在基类中不存在，<strong>也因此包含纯虚函数的类无法生成对象</strong>。声明它是为了说明在派生类中会出现且被定义，然后就可以用虚函数的方法用基类指针调用派生类的<code>func</code>了。</p>
 <h4 id="抽象类"><a href="#抽象类" class="headerlink" title="抽象类"></a>抽象类</h4><p>唯一的作用是拿来派生，并不会被用来生成对象<del>只负责下蛋而不会用来吃（不恰当的比喻）</del>，凡是包含虚函数的类都是抽象类，<strong>因为包含纯虚函数的类无法生成对象</strong>。</p>
 <p>可以作为函数的参数类型，例如：<br>现有抽象类<code>A</code><br>可以有这样一个函数：</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">func</span><span class="params">(A &amp;a)</span></span>;</div></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">func</span><span class="params">(A &amp;a)</span></span>;</span><br></pre></td></tr></table></figure>
 <p>体现了动态多态性。</p>
 
       
@@ -643,7 +636,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">25</span>
+                    <span class="site-state-item-count">26</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
