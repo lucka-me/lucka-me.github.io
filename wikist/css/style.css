@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 72px;
+    font-family: Cinzel, serif;
+    text-align: center;
+    margin: 8px;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: Cinzel, "宋体", serif;
+    font-weight: normal;
+    margin: 2px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #004D85;
+}
+
+.main-box {
+    display: flex;
+    flex: initial;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.avatar-box {
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar-des-left {
+    font-family: Josefin Slab, serif;
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+    padding-right: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.avatar-des-right {
+    font-family: Josefin Slab, serif;
+    font-size: 20px;
+    width: 100%;
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+img.avatar {
+    border-radius:50%;
+    padding: 3px;
+    border: 1px solid #CCC;
+}
+
+img.avatar:hover {
+    box-shadow: 0px 0px 4px #CCC;
+}
+
+.wiki-box {
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    display: flex;
+    align-items: center;
+}
+
+.wiki-box:hover {
+    box-shadow: 0px 0px 4px #CCC;
+}
+
+.wiki-logo {
+
+}
+
+.wiki-des-box {
+    width: 100%;
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wiki-tags {
+    font-family: Josefin Slab, serif;
+    font-size: 14px;
+    color: #777;
+    margin: 2px;
+}
+
+.wiki-info-box {
+    color: #777;
+    margin: 2px;
+}
+
+a.wiki-info {
+    font-family: Josefin Slab, "宋体", serif;
+    font-size: 14px;
+    color: #777;
+    margin-right: 8px;
+}
+
+a.wiki-info:hover {
+    color: #004D85;
+}
+
+.wiki-des {
+    font-family: Josefin Slab, "宋体", serif;
+    font-size: 16px;
+    color: #333;
+    margin: 2px;
+}
