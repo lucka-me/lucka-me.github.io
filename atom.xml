@@ -6,10 +6,33 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lucka.moe/"/>
-  <updated>2018-03-30T12:59:00.000Z</updated>
+  <updated>2018-04-28T18:00:00.000Z</updated>
   <id>https://lucka.moe/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>太阳系柯伊伯二锂矿矿难调查简报</title>
+    <link href="https://lucka.moe/2018/04/29/report-of-accident-in-Kuiper-Dilithium-Mine-of-the-Solar-System/"/>
+    <id>https://lucka.moe/2018/04/29/report-of-accident-in-Kuiper-Dilithium-Mine-of-the-Solar-System/</id>
+    <published>2018-04-28T18:00:00.000Z</published>
+    <updated>2018-04-28T18:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;本文是调查简报，旨在向公众传递关键信息。详细的调查、分析过程请查阅《太阳系柯伊伯二锂矿矿难调查报告》。&lt;br&gt;本文除按条例译为联邦各成员实体官方语言外，应增译人类官方语言（包括阿拉伯语、汉语、英语、法语、俄语和西班牙语），并在不改变原文含义的前提下依照其语言习惯、专有名词、量度单位及文明程度进行适当的修改。另据《文明接触原则》遮蔽部分涉及核心技术细节的内容。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;地球格林威治时间公元████年4月24日，一艘半人马三星能源集团采矿船在太阳系柯伊伯矿区开采二锂矿时，核聚变燃料外泄，导致矿区发生严重连环爆炸，采矿船被当场摧毁，船上三名人员全部遇难，爆炸产生的辐射污染了太阳系内大片区域。爆炸令太阳系第三颗主行星，地球的原始文明受到巨大冲击，几近崩溃。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
+    
+      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
+    
+  </entry>
   
   <entry>
     <title>日记工程：反对票</title>
@@ -191,24 +214,6 @@
       <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
     
       <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>鼠标</title>
-    <link href="https://lucka.moe/2017/07/12/mouse/"/>
-    <id>https://lucka.moe/2017/07/12/mouse/</id>
-    <published>2017-07-12T12:35:05.000Z</published>
-    <updated>2017-07-12T12:35:05.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一些这几年与鼠标的二三事。勉强算是用户体验，但绝对不算是评测，也没有图。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Tech" scheme="https://lucka.moe/tags/Tech/"/>
     
   </entry>
   
