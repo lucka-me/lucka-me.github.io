@@ -134,11 +134,11 @@
 
 
   
-  <meta name="keywords" content="Novel,Pokémon," />
+  <meta name="keywords" content="Pokémon,Novel," />
 
 
 <meta name="description" content="大概是来自于某次无聊时候的遐想。据说破破舵轮的本体并不是舵轮和船锚，而是依附在上面的海藻。那如果，海藻依附的对象，并不是舵轮和锚呢？">
-<meta name="keywords" content="Novel,Pokémon">
+<meta name="keywords" content="Pokémon,Novel">
 <meta property="og:type" content="article">
 <meta property="og:title" content="破破舵轮和男孩">
 <meta property="og:url" content="https://lucka.moe/2017/10/11/dhelmise-and-boy/index.html">
@@ -434,9 +434,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Novel/" rel="tag"># Novel</a>
-          
             <a href="/tags/Pokemon/" rel="tag"># Pokémon</a>
+          
+            <a href="/tags/Novel/" rel="tag"># Novel</a>
           
         </div>
       
@@ -549,7 +549,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">28</span>
+                    <span class="site-state-item-count">29</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -831,21 +831,7 @@
         (d.head || d.body).appendChild(s);
       }
       
-        $(function () {
-          var offsetTop = $('#comments').offset().top - $(window).height();
-          if (offsetTop <= 0) {
-            // load directly when there's no a scrollbar
-            loadComments();
-          } else {
-            $(window).on('scroll.disqus_scroll', function () {
-              var scrollTop = document.documentElement.scrollTop;
-              if (scrollTop >= offsetTop) {
-                $(window).off('.disqus_scroll');
-                loadComments();
-              }
-            });
-          }
-        });
+        loadComments();
       
     </script>
   
