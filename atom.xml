@@ -6,10 +6,28 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lucka.moe/"/>
-  <updated>2018-04-28T18:00:00.000Z</updated>
+  <updated>2018-06-07T09:14:20.073Z</updated>
   <id>https://lucka.moe/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>移动设备面部识别</title>
+    <link href="https://lucka.moe/2018/06/07/facial-recognition-on-mobile/"/>
+    <id>https://lucka.moe/2018/06/07/facial-recognition-on-mobile/</id>
+    <published>2018-06-07T09:14:52.000Z</published>
+    <updated>2018-06-07T09:14:20.073Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;自配备原深感摄像头并且以&lt;ruby&gt;&lt;rb&gt;面容 ID&lt;/rb&gt;&lt;rt&gt;Face ID&lt;/rt&gt;&lt;/ruby&gt; 替代了&lt;ruby&gt;&lt;rb&gt;触控 ID&lt;/rb&gt;&lt;rt&gt;Touch ID&lt;/rt&gt;&lt;/ruby&gt; 的 iPhone X 发布以来，移动端面部识别一下子进入了消费者的视野，近期发布的小米8也有些出人意料地配备了类似的技术。越来越多新手机开始拿面部识别当作卖点，那么这些面部识别在技术上有什么不同，这段时间翻了翻各大厂商的网站和一些资料，聊一聊我所了解的面部识别。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Tech" scheme="https://lucka.moe/tags/Tech/"/>
+    
+  </entry>
   
   <entry>
     <title>太阳系柯伊伯二锂矿矿难调查简报</title>
@@ -192,26 +210,6 @@
     
     </summary>
     
-    
-      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日记工程：绞刑</title>
-    <link href="https://lucka.moe/2017/07/14/project-diary-hanging/"/>
-    <id>https://lucka.moe/2017/07/14/project-diary-hanging/</id>
-    <published>2017-07-13T19:06:11.000Z</published>
-    <updated>2017-07-13T19:06:11.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;日记工程&lt;/strong&gt;（&lt;em&gt;Project Diary&lt;/em&gt;）是由志愿者组织&lt;strong&gt;人类记忆小组&lt;/strong&gt;（&lt;em&gt;Team Humanmoria&lt;/em&gt;）发起并主导的工程之一。&lt;br&gt;收集、整理、归档和公布来自全世界的各种日记，通过它们从不同的角度来再现历史，是日记工程的目标。&lt;br&gt;工程小组欢迎任何人类记忆小组志愿者参与工程。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
     
       <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
     
