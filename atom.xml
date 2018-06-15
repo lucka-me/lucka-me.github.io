@@ -6,10 +6,29 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lucka.moe/"/>
-  <updated>2018-06-07T18:25:04.255Z</updated>
+  <updated>2018-06-15T12:26:43.000Z</updated>
   <id>https://lucka.moe/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>位置欺骗的反制方法</title>
+    <link href="https://lucka.moe/2018/06/15/anti-location-spoofing/"/>
+    <id>https://lucka.moe/2018/06/15/anti-location-spoofing/</id>
+    <published>2018-06-15T12:26:43.000Z</published>
+    <updated>2018-06-15T12:26:43.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://github.com/lucka-me/Patroute-android&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;上半年做的 Android 应用&lt;/a&gt;涉及到设备位置获取，所以很自然需要考虑对付&lt;strong&gt;位置欺骗攻击&lt;/strong&gt;（以下简称&lt;strong&gt;攻击&lt;/strong&gt; &lt;del&gt;因为看上去很酷&lt;/del&gt;）的办法。目前整个软件的基本框架已经大体完成了，如果确定有后续开发的话我希望将&lt;strong&gt;位置欺骗反制&lt;/strong&gt;（&lt;em&gt;Anti Location Spoofing, &lt;strong&gt;ALS&lt;/strong&gt;&lt;/em&gt; &lt;del&gt;据说用英文缩写看上去更酷&lt;/del&gt;）作为开发重点之一，也为此想了一些大致的方法。当然目前只是纯粹的「想法」而已，而且都是基于我已经知道的东西，并没有去查具体的资料和实现方法，我也不确定这些想法是否有足够的可实施性。&lt;/p&gt;
+&lt;p&gt;以下将列举一系列（大致）由简单到复杂的攻击手段并讨论相应的 ALS 方法，随便写一写，可能废话比较多而且会突然变得很啰嗦什么的&lt;del&gt;毕竟思维很随意&lt;/del&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Tech" scheme="https://lucka.moe/tags/Tech/"/>
+    
+  </entry>
   
   <entry>
     <title>2018 Review</title>
@@ -65,9 +84,9 @@
     </summary>
     
     
-      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
-    
       <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
+    
+      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
     
   </entry>
   
@@ -85,9 +104,9 @@
     </summary>
     
     
-      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
-    
       <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
+    
+      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
     
   </entry>
   
@@ -126,9 +145,9 @@
     </summary>
     
     
-      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
-    
       <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
+    
+      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
     
   </entry>
   
@@ -166,9 +185,9 @@
     </summary>
     
     
-      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
-    
       <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
+    
+      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
     
   </entry>
   
@@ -191,26 +210,6 @@
       <category term="Game" scheme="https://lucka.moe/tags/Game/"/>
     
       <category term="Translate" scheme="https://lucka.moe/tags/Translate/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>破破舵轮和男孩</title>
-    <link href="https://lucka.moe/2017/10/11/dhelmise-and-boy/"/>
-    <id>https://lucka.moe/2017/10/11/dhelmise-and-boy/</id>
-    <published>2017-10-11T13:30:00.000Z</published>
-    <updated>2017-10-11T13:30:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;大概是来自于某次无聊时候的遐想。据说破破舵轮的本体并不是舵轮和船锚，而是依附在上面的海藻。那如果，海藻依附的对象，并不是舵轮和锚呢？&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Pokémon" scheme="https://lucka.moe/tags/Pokemon/"/>
-    
-      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
     
   </entry>
   
