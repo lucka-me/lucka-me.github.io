@@ -6,10 +6,32 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lucka.moe/"/>
-  <updated>2018-06-15T12:26:43.000Z</updated>
+  <updated>2018-07-23T12:18:31.000Z</updated>
   <id>https://lucka.moe/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Wallmapper</title>
+    <link href="https://lucka.moe/2018/07/23/wallmapper/"/>
+    <id>https://lucka.moe/2018/07/23/wallmapper/</id>
+    <published>2018-07-23T12:18:31.000Z</published>
+    <updated>2018-07-23T12:18:31.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://lucka.moe/Wallmapper/&quot; title=&quot;Demo&quot;&gt;&lt;img src=&quot;/images/2018/7/Wallmapper.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;用了近两年的壁纸们终于可以换了。&lt;br&gt;我先叉会腰。&lt;br&gt;然后&lt;ruby&gt;&lt;rb&gt;写&lt;/rb&gt;&lt;rt&gt;水&lt;/rt&gt;&lt;/ruby&gt;一篇开发心得。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="Tech" scheme="https://lucka.moe/tags/Tech/"/>
+    
+      <category term="Programming" scheme="https://lucka.moe/tags/Programming/"/>
+    
+  </entry>
   
   <entry>
     <title>位置欺骗的反制方法</title>
@@ -35,7 +57,7 @@
     <link href="https://lucka.moe/2018/06/08/2018-review/"/>
     <id>https://lucka.moe/2018/06/08/2018-review/</id>
     <published>2018-06-07T18:23:12.000Z</published>
-    <updated>2018-06-07T18:25:04.255Z</updated>
+    <updated>2018-07-23T06:04:22.324Z</updated>
     
     <summary type="html">
     
@@ -84,9 +106,9 @@
     </summary>
     
     
-      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
-    
       <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
+    
+      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
     
   </entry>
   
@@ -104,9 +126,9 @@
     </summary>
     
     
-      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
-    
       <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
+    
+      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
     
   </entry>
   
@@ -145,9 +167,9 @@
     </summary>
     
     
-      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
-    
       <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
+    
+      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
     
   </entry>
   
@@ -185,31 +207,9 @@
     </summary>
     
     
-      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
-    
       <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
     
-  </entry>
-  
-  <entry>
-    <title>翻译：&quot;Doki Doki Literature Club&quot; Has More To It Than We Think.</title>
-    <link href="https://lucka.moe/2017/11/06/DDLC-more/"/>
-    <id>https://lucka.moe/2017/11/06/DDLC-more/</id>
-    <published>2017-11-06T02:33:00.000Z</published>
-    <updated>2017-11-06T02:33:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;上周六玩了一下午 Doki Doki Literature Club! &lt;sup&gt;&lt;a href=&quot;http://ddlc.moe&quot; title=&quot;Doki Doki Literature Club!&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Official&lt;/a&gt; · &lt;a href=&quot;http://store.steampowered.com/app/698780/Doki_Doki_Literature_Club/&quot; title=&quot;Steam 上的 Doki Doki Literature Club!&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Steam&lt;/a&gt;&lt;/sup&gt;（&lt;em&gt;心跳心跳文学社！&lt;/em&gt;），震撼之余也意识到游戏里还有很多等待玩家发掘的隐藏内容，其中最明显的就是&lt;code&gt;characters&lt;/code&gt;文件夹下的四个文件，显然它们并不是所谓的「角色数据文件」而是完全由隐藏信息构成的。今天看到 reddit 上的这篇文章，感觉这个谜差不多(?)解出来了，正好有点时间，试着把原文翻译一下吧。&lt;/p&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://www.reddit.com/r/ARG/comments/71z2pt/doki_doki_literature_club_has_more_to_it_than_we/&quot; title=&quot;reddit&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;“Doki Doki Literature Club” Has More To It Than We Think.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://twitter.com/Mithost/status/927513101813145600&quot; title=&quot;Twitter&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;翻译已获得原作者授权&lt;/a&gt;。&lt;/em&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Game" scheme="https://lucka.moe/tags/Game/"/>
-    
-      <category term="Translate" scheme="https://lucka.moe/tags/Translate/"/>
+      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
     
   </entry>
   
