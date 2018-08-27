@@ -6,10 +6,32 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lucka.moe/"/>
-  <updated>2018-07-23T12:18:31.000Z</updated>
+  <updated>2018-08-27T08:14:56.000Z</updated>
   <id>https://lucka.moe/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android 开发笔记</title>
+    <link href="https://lucka.moe/2018/08/27/android-dev-note/"/>
+    <id>https://lucka.moe/2018/08/27/android-dev-note/</id>
+    <published>2018-08-27T08:14:56.000Z</published>
+    <updated>2018-08-27T08:14:56.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;随着作为某大赛参赛作品提交，&lt;a href=&quot;https://github.com/lucka-me/Patroute-android&quot; title=&quot;lucka-me/Patroute-android | GitHub&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;巡检应用 Patroute&lt;/a&gt; 的制作终于暂告一段落了。&lt;/p&gt;
+&lt;p&gt;紧接着又开了一个新坑，名为 &lt;a href=&quot;https://github.com/lucka-me/RoundO-android&quot; title=&quot;lucka-me/RoundO-android | GitHub&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;RoundO&lt;/a&gt; 的所谓「城市定向越野」应用。虽然组长称其为定向越野，我个人觉得其实和 Patroute 一样本质上都是「LBS 打卡应用」，所以一开始直接套用了 Patroute 的代码框架进行开发。&lt;br&gt;不过在开发过程中还是一点一点地做了不少修改，到现在已经完成了当初设想的大部分功能，代码和 Patroute 的有了很大的差异。结果现在再看 Patroute 的代码会有种「完蛋了这种东西绝对会被评委乱棍打到死无音讯」的感觉……&lt;/p&gt;
+&lt;p&gt;在这里以 RoundO 为例子，把开发过程中学到的东西和解决的问题记一记。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Tech" scheme="https://lucka.moe/tags/Tech/"/>
+    
+      <category term="Programming" scheme="https://lucka.moe/tags/Programming/"/>
+    
+  </entry>
   
   <entry>
     <title>Wallmapper</title>
@@ -106,9 +128,9 @@
     </summary>
     
     
-      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
-    
       <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
+    
+      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
     
   </entry>
   
@@ -126,9 +148,9 @@
     </summary>
     
     
-      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
-    
       <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
+    
+      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
     
   </entry>
   
@@ -167,9 +189,9 @@
     </summary>
     
     
-      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
-    
       <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
+    
+      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
     
   </entry>
   
@@ -190,26 +212,6 @@
     
     
       <category term="Journey" scheme="https://lucka.moe/tags/Journey/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日记工程：回家</title>
-    <link href="https://lucka.moe/2017/12/01/project-diary-home/"/>
-    <id>https://lucka.moe/2017/12/01/project-diary-home/</id>
-    <published>2017-12-01T15:03:11.000Z</published>
-    <updated>2017-12-01T15:03:11.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;日记工程&lt;/strong&gt;（&lt;em&gt;Project Diary&lt;/em&gt;）是由志愿者组织&lt;strong&gt;人类记忆小组&lt;/strong&gt;（&lt;em&gt;Team Humanmoria&lt;/em&gt;）发起并主导的工程之一。&lt;br&gt;收集、整理、归档和公布来自全世界的各种日记，通过它们从不同的角度来再现历史，是日记工程的目标。&lt;br&gt;工程小组欢迎任何人类记忆小组志愿者参与工程。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
-    
-      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
     
   </entry>
   

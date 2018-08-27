@@ -417,7 +417,7 @@
 <h3 id="0-3"><a href="#0-3" class="headerlink" title="0.3"></a><code>0.3</code></h3><p>为了能即时更改地图样式，我从 <code>0.3</code> 开始换用 Mapbox 自家的 <a href="https://www.mapbox.com/help/how-web-apps-work/#mapbox-gl-js-1" title="Web applications | Mapbox" target="_blank" rel="noopener">Mapbox GL JS</a>，它可以通过调用 <code>setStyle()</code> 方便地修改地图样式，顺便还（有些意外地）解决了范围不一致的问题，leaflet-image 和 html2canvas 也不需要，直接调用 <code>getCanvas()</code> 就能获取到地图的 Canvas，没有控件和版权标记。<br>接下来就是一些小问题啦。</p>
 <ul>
 <li>在新地图创建时要设置 <code>preserveDrawingBuffer: true</code> 以确保地图加载完毕，否则 Canvas 里可能是空的。</li>
-<li>在高 DPI 设备（比如 Retina）上，输出图像的长宽分别是容器长宽乘以 <code>window.devicePixelRatio</code>，所以在设置容器时要将长宽分别处以它。</li>
+<li>在高 DPI 设备（比如 Retina）上，输出图像的长宽分别是容器长宽乘以 <code>window.devicePixelRatio</code>，所以在设置容器时要将长宽分别除以它。</li>
 <li>使用 <code>toDataURL()</code> 生产并下载图片可能在 Chrome 上出现问题，即浏览器开始下载（图标上也出现下载标志）但并不出现在下载列表里，解决方法是用 <code>Blob</code> 下载。</li>
 <li><code>toBlob()</code> 方法并不是所有浏览器都支持（比如 Edge 和 IE），如果不支持可以<a href="https://stackoverflow.com/a/47487073" title="Canvas to blob on Edge | Stack Overflow" target="_blank" rel="noopener">参考此处</a>现场添加。</li>
 </ul>
@@ -474,6 +474,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/08/27/android-dev-note/" rel="prev" title="Android 开发笔记">
+                Android 开发笔记 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -561,7 +565,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">31</span>
+                    <span class="site-state-item-count">32</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
