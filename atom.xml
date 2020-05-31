@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Lucka</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://lucka.moe/"/>
+  <updated>2019-12-31T16:00:00.000Z</updated>
+  <id>https://lucka.moe/</id>
+  
+  <author>
+    <name>Lucka</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019 Review</title>
+    <link href="https://lucka.moe/2020/01/2019-review/"/>
+    <id>https://lucka.moe/2020/01/2019-review/</id>
+    <published>2019-12-31T16:00:00.000Z</published>
+    <updated>2019-12-31T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2020年新年快乐！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020/1/2020.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2019年完全没有写博客Orz&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Journey" scheme="https://lucka.moe/tags/Journey/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android 开发笔记</title>
+    <link href="https://lucka.moe/2018/08/android-dev-note/"/>
+    <id>https://lucka.moe/2018/08/android-dev-note/</id>
+    <published>2018-08-27T08:14:56.000Z</published>
+    <updated>2018-08-27T08:14:56.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;随着作为某大赛参赛作品提交，&lt;a href=&quot;https://github.com/lucka-me/Patroute-android&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot;lucka-me/Patroute-android | GitHub&quot;&gt;巡检应用 Patroute&lt;/a&gt; 的制作终于暂告一段落了。&lt;/p&gt;
+&lt;p&gt;紧接着又开了一个新坑，名为 &lt;a href=&quot;https://github.com/lucka-me/RoundO-android&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot;lucka-me/RoundO-android | GitHub&quot;&gt;RoundO&lt;/a&gt; 的所谓「城市定向越野」应用。虽然组长称其为定向越野，我个人觉得其实和 Patroute 一样本质上都是「LBS 打卡应用」，所以一开始直接套用了 Patroute 的代码框架进行开发。&lt;br&gt;不过在开发过程中还是一点一点地做了不少修改，到现在已经完成了当初设想的大部分功能，代码和 Patroute 的有了很大的差异。结果现在再看 Patroute 的代码会有种「完蛋了这种东西绝对会被评委乱棍打到死无音讯」的感觉……&lt;/p&gt;
+&lt;p&gt;在这里以 RoundO 为例子，把开发过程中学到的东西和解决的问题记一记。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Programming" scheme="https://lucka.moe/tags/Programming/"/>
+    
+      <category term="Tech" scheme="https://lucka.moe/tags/Tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Wallmapper</title>
+    <link href="https://lucka.moe/2018/07/wallmapper/"/>
+    <id>https://lucka.moe/2018/07/wallmapper/</id>
+    <published>2018-07-23T12:18:31.000Z</published>
+    <updated>2018-07-23T12:18:31.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;&lt;a href=&quot;https://lucka.moe/Wallmapper/&quot; title=&quot;Demo&quot;&gt;&lt;img src=&quot;/images/2018/7/Wallmapper.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;用了近两年的壁纸们终于可以换了。&lt;br&gt;我先叉会腰。&lt;br&gt;然后&lt;ruby&gt;&lt;rb&gt;写&lt;/rb&gt;&lt;rt&gt;水&lt;/rt&gt;&lt;/ruby&gt;一篇开发心得。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Programming" scheme="https://lucka.moe/tags/Programming/"/>
+    
+      <category term="Tech" scheme="https://lucka.moe/tags/Tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>位置欺骗的反制方法</title>
+    <link href="https://lucka.moe/2018/06/anti-location-spoofing/"/>
+    <id>https://lucka.moe/2018/06/anti-location-spoofing/</id>
+    <published>2018-06-15T12:26:43.000Z</published>
+    <updated>2018-06-15T12:26:43.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://github.com/lucka-me/Patroute-android&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;上半年做的 Android 应用&lt;/a&gt;涉及到设备位置获取，所以很自然需要考虑对付&lt;strong&gt;位置欺骗攻击&lt;/strong&gt;（以下简称&lt;strong&gt;攻击&lt;/strong&gt; &lt;del&gt;因为看上去很酷&lt;/del&gt;）的办法。目前整个软件的基本框架已经大体完成了，如果确定有后续开发的话我希望将&lt;strong&gt;位置欺骗反制&lt;/strong&gt;（&lt;em&gt;Anti Location Spoofing, &lt;strong&gt;ALS&lt;/strong&gt;&lt;/em&gt; &lt;del&gt;据说用英文缩写看上去更酷&lt;/del&gt;）作为开发重点之一，也为此想了一些大致的方法。当然目前只是纯粹的「想法」而已，而且都是基于我已经知道的东西，并没有去查具体的资料和实现方法，我也不确定这些想法是否有足够的可实施性。&lt;/p&gt;
+&lt;p&gt;以下将列举一系列（大致）由简单到复杂的攻击手段并讨论相应的 ALS 方法，随便写一写，可能废话比较多而且会突然变得很啰嗦什么的&lt;del&gt;毕竟思维很随意&lt;/del&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Tech" scheme="https://lucka.moe/tags/Tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2018 Review</title>
+    <link href="https://lucka.moe/2018/06/2018-review/"/>
+    <id>https://lucka.moe/2018/06/2018-review/</id>
+    <published>2018-06-07T18:23:12.000Z</published>
+    <updated>2018-12-31T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;del&gt;今天是2018年6月8日，2018年还没过去一半，突然冒出一篇年度总结的确非常奇怪。&lt;/del&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;I’m back :)&lt;/p&gt;
+&lt;/blockquote&gt;  
+
+&lt;p&gt;2019年新年快乐！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2019/1/2019.jpg&quot; alt=&quot;&quot; title=&quot;一年没画画了Orz&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Journey" scheme="https://lucka.moe/tags/Journey/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>移动设备面部识别</title>
+    <link href="https://lucka.moe/2018/06/facial-recognition-on-mobile/"/>
+    <id>https://lucka.moe/2018/06/facial-recognition-on-mobile/</id>
+    <published>2018-06-07T09:14:52.000Z</published>
+    <updated>2020-05-23T02:36:36.058Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;自配备原深感摄像头并且以&lt;ruby&gt;&lt;rb&gt;面容 ID&lt;/rb&gt;&lt;rt&gt;Face ID&lt;/rt&gt;&lt;/ruby&gt; 替代了&lt;ruby&gt;&lt;rb&gt;触控 ID&lt;/rb&gt;&lt;rt&gt;Touch ID&lt;/rt&gt;&lt;/ruby&gt; 的 iPhone X 发布以来，移动端面部识别一下子进入了消费者的视野，近期发布的小米8也有些出人意料地配备了类似的技术。越来越多新手机开始拿面部识别当作卖点，那么这些面部识别在技术上有什么不同，这段时间翻了翻各大厂商的网站和一些资料，聊一聊我所了解的面部识别。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Tech" scheme="https://lucka.moe/tags/Tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>太阳系柯伊伯二锂矿矿难调查简报</title>
+    <link href="https://lucka.moe/2018/04/report-of-accident-in-kuiper-dilithium-mine-of-the-solar-system/"/>
+    <id>https://lucka.moe/2018/04/report-of-accident-in-kuiper-dilithium-mine-of-the-solar-system/</id>
+    <published>2018-04-28T18:00:00.000Z</published>
+    <updated>2018-04-28T18:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;本文是调查简报，旨在向公众传递关键信息。详细的调查、分析过程请查阅《太阳系柯伊伯二锂矿矿难调查报告》。&lt;br&gt;本文除按条例译为联邦各成员实体官方语言外，应增译人类官方语言（包括阿拉伯语、汉语、英语、法语、俄语和西班牙语），并在不改变原文含义的前提下依照其语言习惯、专有名词、量度单位及文明程度进行适当的修改。另据《文明接触原则》遮蔽部分涉及核心技术细节的内容。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;地球格林威治时间公元████年4月24日，一艘半人马三星能源集团采矿船在太阳系柯伊伯矿区开采二锂矿时，核聚变燃料外泄，导致矿区发生严重连环爆炸，采矿船被当场摧毁，船上三名人员全部遇难，爆炸产生的辐射污染了太阳系内大片区域。爆炸令太阳系第三颗主行星，地球的原始文明受到巨大冲击，几近崩溃。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
+    
+      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>日记工程：反对票</title>
+    <link href="https://lucka.moe/2018/03/project-diary-nay/"/>
+    <id>https://lucka.moe/2018/03/project-diary-nay/</id>
+    <published>2018-03-30T12:59:00.000Z</published>
+    <updated>2018-03-30T12:59:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;日记工程&lt;/strong&gt;（&lt;em&gt;Project Diary&lt;/em&gt;）是由志愿者组织&lt;strong&gt;人类记忆小组&lt;/strong&gt;（&lt;em&gt;Team Humanmoria&lt;/em&gt;）发起并主导的工程之一。&lt;br&gt;收集、整理、归档和公布来自全世界的各种日记，通过它们从不同的角度来再现历史，是日记工程的目标。&lt;br&gt;工程小组欢迎任何人类记忆小组志愿者参与工程。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
+    
+      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>合作维基</title>
+    <link href="https://lucka.moe/2018/02/coworking-for-wiki/"/>
+    <id>https://lucka.moe/2018/02/coworking-for-wiki/</id>
+    <published>2018-02-24T06:02:54.000Z</published>
+    <updated>2018-02-24T06:02:54.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;我应该怎样去参与一个基于 MediaWiki 的百科网站的建设？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;昨晚，百科两位积怨已久的管理员闹掰了。之前也时不时会看到他们之间越来越激烈的争执，但我并没有时间和精力更不想去参与他们的斗争，我只想做好自己的工作，也就是&lt;del&gt;「当条老咸鱼」&lt;/del&gt;「&lt;strong&gt;在自己的兴趣范围内满足自己的兴趣&lt;/strong&gt;」，并且在百科提供的框架下做到「&lt;strong&gt;让所有人都认可我的工作&lt;/strong&gt;」。&lt;/p&gt;
+&lt;p&gt;至于怎么做，以下是我的一点看法。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Journey" scheme="https://lucka.moe/tags/Journey/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Seed&amp;#58; π</title>
+    <link href="https://lucka.moe/2018/01/seed-pi/"/>
+    <id>https://lucka.moe/2018/01/seed-pi/</id>
+    <published>2018-01-19T03:09:18.000Z</published>
+    <updated>2018-01-19T03:09:18.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;「爸爸，我们今天数学课学习了圆周率！」&lt;br&gt;「爸爸，我会背圆周率了！爸爸听小羽给你背！3.14159…」&lt;br&gt;「爸爸！我能背到小数点后40位了，最后面是奶奶的生日，我记得好清楚！好神奇啊！」&lt;br&gt;「爸爸，我们的通用量子计算机原型夏娜测试成功了，她的测试程序是我写的圆周率计算程序，计算10的12次方精度只用了12秒，我真的好激动！」&lt;br&gt;「爸爸……」&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Sci-Fi" scheme="https://lucka.moe/tags/Sci-Fi/"/>
+    
+      <category term="Novel" scheme="https://lucka.moe/tags/Novel/"/>
+    
+  </entry>
+  
+</feed>
