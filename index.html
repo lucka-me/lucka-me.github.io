@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.1">
+<meta name="generator" content="Hexo 5.0.2">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
 
@@ -203,7 +203,7 @@
 
       
           <p>2020年新年快乐！</p>
-<p><img src="/images/2020/1/2020.png" alt=""></p>
+<p><img src="/images/2020/1/2020.png"></p>
 <p>2019年完全没有写博客Orz</p>
           <!--noindex-->
             <div class="post-button">
@@ -269,8 +269,8 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>随着作为某大赛参赛作品提交，<a href="https://github.com/lucka-me/Patroute-android" target="_blank" rel="noopener" title="lucka-me/Patroute-android | GitHub">巡检应用 Patroute</a> 的制作终于暂告一段落了。</p>
-<p>紧接着又开了一个新坑，名为 <a href="https://github.com/lucka-me/RoundO-android" target="_blank" rel="noopener" title="lucka-me/RoundO-android | GitHub">RoundO</a> 的所谓「城市定向越野」应用。虽然组长称其为定向越野，我个人觉得其实和 Patroute 一样本质上都是「LBS 打卡应用」，所以一开始直接套用了 Patroute 的代码框架进行开发。<br>不过在开发过程中还是一点一点地做了不少修改，到现在已经完成了当初设想的大部分功能，代码和 Patroute 的有了很大的差异。结果现在再看 Patroute 的代码会有种「完蛋了这种东西绝对会被评委乱棍打到死无音讯」的感觉……</p>
+          <p>随着作为某大赛参赛作品提交，<a target="_blank" rel="noopener" href="https://github.com/lucka-me/Patroute-android" title="lucka-me/Patroute-android | GitHub">巡检应用 Patroute</a> 的制作终于暂告一段落了。</p>
+<p>紧接着又开了一个新坑，名为 <a target="_blank" rel="noopener" href="https://github.com/lucka-me/RoundO-android" title="lucka-me/RoundO-android | GitHub">RoundO</a> 的所谓「城市定向越野」应用。虽然组长称其为定向越野，我个人觉得其实和 Patroute 一样本质上都是「LBS 打卡应用」，所以一开始直接套用了 Patroute 的代码框架进行开发。<br>不过在开发过程中还是一点一点地做了不少修改，到现在已经完成了当初设想的大部分功能，代码和 Patroute 的有了很大的差异。结果现在再看 Patroute 的代码会有种「完蛋了这种东西绝对会被评委乱棍打到死无音讯」的感觉……</p>
 <p>在这里以 RoundO 为例子，把开发过程中学到的东西和解决的问题记一记。</p>
           <!--noindex-->
             <div class="post-button">
@@ -336,7 +336,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <blockquote><p><a href="https://lucka.moe/Wallmapper/" title="Demo"><img src="/images/2018/7/Wallmapper.png" alt=""></a></p>
+          <blockquote><p><a href="https://lucka.moe/Wallmapper/" title="Demo"><img src="/images/2018/7/Wallmapper.png"></a></p>
 <p>用了近两年的壁纸们终于可以换了。<br>我先叉会腰。<br>然后<ruby><rb>写</rb><rt>水</rt></ruby>一篇开发心得。</p>
 </blockquote>
           <!--noindex-->
@@ -403,7 +403,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p><a href="https://github.com/lucka-me/Patroute-android" target="_blank" rel="noopener">上半年做的 Android 应用</a>涉及到设备位置获取，所以很自然需要考虑对付<strong>位置欺骗攻击</strong>（以下简称<strong>攻击</strong> <del>因为看上去很酷</del>）的办法。目前整个软件的基本框架已经大体完成了，如果确定有后续开发的话我希望将<strong>位置欺骗反制</strong>（<em>Anti Location Spoofing, <strong>ALS</strong></em> <del>据说用英文缩写看上去更酷</del>）作为开发重点之一，也为此想了一些大致的方法。当然目前只是纯粹的「想法」而已，而且都是基于我已经知道的东西，并没有去查具体的资料和实现方法，我也不确定这些想法是否有足够的可实施性。</p>
+          <p><a target="_blank" rel="noopener" href="https://github.com/lucka-me/Patroute-android">上半年做的 Android 应用</a>涉及到设备位置获取，所以很自然需要考虑对付<strong>位置欺骗攻击</strong>（以下简称<strong>攻击</strong> <del>因为看上去很酷</del>）的办法。目前整个软件的基本框架已经大体完成了，如果确定有后续开发的话我希望将<strong>位置欺骗反制</strong>（<em>Anti Location Spoofing, <strong>ALS</strong></em> <del>据说用英文缩写看上去更酷</del>）作为开发重点之一，也为此想了一些大致的方法。当然目前只是纯粹的「想法」而已，而且都是基于我已经知道的东西，并没有去查具体的资料和实现方法，我也不确定这些想法是否有足够的可实施性。</p>
 <p>以下将列举一系列（大致）由简单到复杂的攻击手段并讨论相应的 ALS 方法，随便写一写，可能废话比较多而且会突然变得很啰嗦什么的<del>毕竟思维很随意</del>。</p>
           <!--noindex-->
             <div class="post-button">
@@ -481,7 +481,7 @@
 </blockquote>  
 
 <p>2019年新年快乐！</p>
-<p><img src="/images/2019/1/2019.jpg" alt="" title="一年没画画了Orz"></p>
+<p><img src="/images/2019/1/2019.jpg" title="一年没画画了Orz"></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2018/06/2018-review/#more" rel="contents">
@@ -534,13 +534,6 @@
 
               <time title="创建时间：2018-06-07 17:14:52" itemprop="dateCreated datePublished" datetime="2018-06-07T17:14:52+08:00">2018-06-07</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-05-23 10:36:36" itemprop="dateModified" datetime="2020-05-23T10:36:36+08:00">2020-05-23</time>
-              </span>
 
           
 

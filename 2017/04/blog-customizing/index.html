@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.1">
+<meta name="generator" content="Hexo 5.0.2">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
 
@@ -207,15 +207,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>最近开始不满足于 <a href="http://theme-next.iissnan.com" target="_blank" rel="noopener" title="NexT 使用文档">NexT</a> 提供的功能，想修改定制一下，于是小心翼翼地查资料，小心翼翼地修改……然后总结一下放在这里。<br>以后也会进行一些改造（大概），毕竟有很多想做的……这篇文章也会跟着更新的。</p>
+        <p>最近开始不满足于 <a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/" title="NexT 使用文档">NexT</a> 提供的功能，想修改定制一下，于是小心翼翼地查资料，小心翼翼地修改……然后总结一下放在这里。<br>以后也会进行一些改造（大概），毕竟有很多想做的……这篇文章也会跟着更新的。</p>
 <a id="more"></a>
 
 <h2 id="修改文章排序"><a href="#修改文章排序" class="headerlink" title="修改文章排序"></a>修改文章排序</h2><p>目前文章按创建日期（即 Front-matter 中的 <code>date</code>）排序，即使加入了<code>updated</code>排列也不会随之改变。因为有一些文章（比如 <a href="/2017/04/03/yuyuko-mission/">Ingress 某系列任务说明</a>和本文）预计会长期更新，所以希望能按更新时间排序。</p>
 <h3 id="要修改的内容"><a href="#要修改的内容" class="headerlink" title="要修改的内容"></a>要修改的内容</h3><ul>
 <li><p><code>/node_modules/hexo-generator-index/index.js</code>  </p>
-  <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">order_by: <span class="string">'-date'</span></span><br></pre></td></tr></table></figure>
+  <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">order_by: <span class="string">&#x27;-date&#x27;</span></span><br></pre></td></tr></table></figure>
 <p>  修改为</p>
-  <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">order_by: <span class="string">'-updated'</span></span><br></pre></td></tr></table></figure>
+  <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">order_by: <span class="string">&#x27;-updated&#x27;</span></span><br></pre></td></tr></table></figure>
 
 </li>
 </ul>
@@ -228,7 +228,7 @@
 </ul>
 <h3 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h3><p>所以似乎可以按任何 Front-matter 中的参数进行排序，比如加一个<code>Top</code>参数，设置文章等级，置顶文章……有办法按多个参数排序吗？</p>
 <h3 id="参考内容"><a href="#参考内容" class="headerlink" title="参考内容"></a>参考内容</h3><ul>
-<li><a href="https://www.lilonghe.net/archives/website-changelog.html#主页改为按修改时期排序文章" target="_blank" rel="noopener" title="网站更新日志 | 杂记">杂记</a> 主页改为按修改时期排序文章<br>  虽然用这位的方法整个排序都混乱了……但通过它摸索到了解决办法。</li>
+<li><a target="_blank" rel="noopener" href="https://www.lilonghe.net/archives/website-changelog.html#%E4%B8%BB%E9%A1%B5%E6%94%B9%E4%B8%BA%E6%8C%89%E4%BF%AE%E6%94%B9%E6%97%B6%E6%9C%9F%E6%8E%92%E5%BA%8F%E6%96%87%E7%AB%A0" title="网站更新日志 | 杂记">杂记</a> 主页改为按修改时期排序文章<br>  虽然用这位的方法整个排序都混乱了……但通过它摸索到了解决办法。</li>
 </ul>
 <h2 id="圆形头像"><a href="#圆形头像" class="headerlink" title="圆形头像"></a>圆形头像</h2><p>把左边 Sidebar 里的头像做成圆形的。</p>
 <h3 id="要修改的内容-1"><a href="#要修改的内容-1" class="headerlink" title="要修改的内容"></a>要修改的内容</h3><ul>
@@ -241,7 +241,7 @@
 </ul>
 <h3 id="Note-1"><a href="#Note-1" class="headerlink" title="Note"></a>Note</h3><p>其中的值我也不知道应该设置为多少……资料中写的是<code>80</code>但我改成<code>128</code>好像也没什么关系233</p>
 <h3 id="参考内容-1"><a href="#参考内容-1" class="headerlink" title="参考内容"></a>参考内容</h3><ul>
-<li><a href="http://ehlxr.me/2016/08/30/使用Hexo基于GitHub-Pages搭建个人博客（三）/#11-1-头像圆形修改" target="_blank" rel="noopener" title="使用Hexo基于GitHub Pages搭建个人博客（三） | Ehlxr&#39;s Blog">Ehlxr’s Blog</a> 头像圆形修改</li>
+<li><a target="_blank" rel="noopener" href="http://ehlxr.me/2016/08/30/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89/#11-1-%E5%A4%B4%E5%83%8F%E5%9C%86%E5%BD%A2%E4%BF%AE%E6%94%B9" title="使用Hexo基于GitHub Pages搭建个人博客（三） | Ehlxr&#39;s Blog">Ehlxr’s Blog</a> 头像圆形修改</li>
 </ul>
 
     </div>
@@ -326,7 +326,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#修改文章排序"><span class="nav-number">1.</span> <span class="nav-text">修改文章排序</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#要修改的内容"><span class="nav-number">1.1.</span> <span class="nav-text">要修改的内容</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Note"><span class="nav-number">1.2.</span> <span class="nav-text">Note</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考内容"><span class="nav-number">1.3.</span> <span class="nav-text">参考内容</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#圆形头像"><span class="nav-number">2.</span> <span class="nav-text">圆形头像</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#要修改的内容-1"><span class="nav-number">2.1.</span> <span class="nav-text">要修改的内容</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Note-1"><span class="nav-number">2.2.</span> <span class="nav-text">Note</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考内容-1"><span class="nav-number">2.3.</span> <span class="nav-text">参考内容</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E6%96%87%E7%AB%A0%E6%8E%92%E5%BA%8F"><span class="nav-number">1.</span> <span class="nav-text">修改文章排序</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A6%81%E4%BF%AE%E6%94%B9%E7%9A%84%E5%86%85%E5%AE%B9"><span class="nav-number">1.1.</span> <span class="nav-text">要修改的内容</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Note"><span class="nav-number">1.2.</span> <span class="nav-text">Note</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E5%86%85%E5%AE%B9"><span class="nav-number">1.3.</span> <span class="nav-text">参考内容</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9C%86%E5%BD%A2%E5%A4%B4%E5%83%8F"><span class="nav-number">2.</span> <span class="nav-text">圆形头像</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A6%81%E4%BF%AE%E6%94%B9%E7%9A%84%E5%86%85%E5%AE%B9-1"><span class="nav-number">2.1.</span> <span class="nav-text">要修改的内容</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Note-1"><span class="nav-number">2.2.</span> <span class="nav-text">Note</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E5%86%85%E5%AE%B9-1"><span class="nav-number">2.3.</span> <span class="nav-text">参考内容</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 

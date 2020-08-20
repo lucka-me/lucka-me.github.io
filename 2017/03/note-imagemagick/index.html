@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.1">
+<meta name="generator" content="Hexo 5.0.2">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
 
@@ -214,22 +214,22 @@
 <p><del>嘛，也好久没更新博客了，不能吃灰啊啊啊！</del></p>
 <a id="more"></a>
 
-<p>填的坑是<a href="https://wiki.52poke.com/wiki/主页" target="_blank" rel="noopener" title="主页">神奇宝贝百科</a>里<a href="https://wiki.52poke.com/wiki/精靈寶可夢_太陽%EF%BC%8F月亮" target="_blank" rel="noopener" title="精灵宝可梦 太阳／月亮">日月</a>的<a href="https://wiki.52poke.com/wiki/服装样式列表（SM）" target="_blank" rel="noopener" title="服装样式列表（SM）">服装样式列表</a>，虽然看上去量很大（仅仅目前填完的女装部分维基代码就有65kB，位列百科第23）实际上在网络上找到了<a href="http://www.pokeuniv.com/bbs/thread-7429-1-2.html" target="_blank" rel="noopener" title="可购买服装位置及服装基本样式一览（女主）">别人整理的简表</a>后，用表格软件通过几个「机械化」的步骤就可以快速转化成维基格式的表格代码，这项工作在开坑后的半个月就基本成型了（当然那段时间也做了别的事……</p>
-<p>然后我遇到了一个大问题：服装的图片。<br>日月继承和发扬了 XY 的服装系统，女装共计70余种，很多服装都有2种版本通用颜色、5种太阳版限定颜色和5种月亮版限定颜色，<a href="http://serebii.net/sunmoon/customisation.shtml" target="_blank" rel="noopener" title="Trainer Customisation">Serebii.net</a> 提供了大部分通用颜色和月亮版限定颜色的服装截图，共计约300张。但这里提供的图片都是全身图，如果直接放在百科上会变得很难辨认，比如这张：<br><img src="http://serebii.net/sunmoon/clothing/female/80.png" alt="宝石发夹" title="宝石发夹，售价110,000元"><br>要死啊，图片宽度是400px，放在百科上缩成64px的话什么都没了啊！<br>所以有什么办法能裁切，批量裁切，一键裁切……啊？<br>然后就开始咕咕咕，一咕就咕到2017年。</p>
-<h2 id="ImageMagick"><a href="#ImageMagick" class="headerlink" title="ImageMagick"></a>ImageMagick</h2><p>寒假咸在家的时候，百科的小伙伴截了一批发型图片让我处理一下上传到<a href="https://wiki.52poke.com/wiki/美髮沙龍" target="_blank" rel="noopener" title="美发沙龙">百科</a>。他大概是用了截取屏幕上的固定区域的功能，所以要裁切的区域也是一样的。虽然图片很少可以用 Photoshop 一张一张裁，但既然咸在家，而且解决这个问题就能解决服装的大问题，不如查一查好了。</p>
+<p>填的坑是<a target="_blank" rel="noopener" href="https://wiki.52poke.com/wiki/%E4%B8%BB%E9%A1%B5" title="主页">神奇宝贝百科</a>里<a target="_blank" rel="noopener" href="https://wiki.52poke.com/wiki/%E7%B2%BE%E9%9D%88%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E5%A4%AA%E9%99%BD%EF%BC%8F%E6%9C%88%E4%BA%AE" title="精灵宝可梦 太阳／月亮">日月</a>的<a target="_blank" rel="noopener" href="https://wiki.52poke.com/wiki/%E6%9C%8D%E8%A3%85%E6%A0%B7%E5%BC%8F%E5%88%97%E8%A1%A8%EF%BC%88SM%EF%BC%89" title="服装样式列表（SM）">服装样式列表</a>，虽然看上去量很大（仅仅目前填完的女装部分维基代码就有65kB，位列百科第23）实际上在网络上找到了<a target="_blank" rel="noopener" href="http://www.pokeuniv.com/bbs/thread-7429-1-2.html" title="可购买服装位置及服装基本样式一览（女主）">别人整理的简表</a>后，用表格软件通过几个「机械化」的步骤就可以快速转化成维基格式的表格代码，这项工作在开坑后的半个月就基本成型了（当然那段时间也做了别的事……</p>
+<p>然后我遇到了一个大问题：服装的图片。<br>日月继承和发扬了 XY 的服装系统，女装共计70余种，很多服装都有2种版本通用颜色、5种太阳版限定颜色和5种月亮版限定颜色，<a target="_blank" rel="noopener" href="http://serebii.net/sunmoon/customisation.shtml" title="Trainer Customisation">Serebii.net</a> 提供了大部分通用颜色和月亮版限定颜色的服装截图，共计约300张。但这里提供的图片都是全身图，如果直接放在百科上会变得很难辨认，比如这张：<br><img src="http://serebii.net/sunmoon/clothing/female/80.png" alt="宝石发夹" title="宝石发夹，售价110,000元"><br>要死啊，图片宽度是400px，放在百科上缩成64px的话什么都没了啊！<br>所以有什么办法能裁切，批量裁切，一键裁切……啊？<br>然后就开始咕咕咕，一咕就咕到2017年。</p>
+<h2 id="ImageMagick"><a href="#ImageMagick" class="headerlink" title="ImageMagick"></a>ImageMagick</h2><p>寒假咸在家的时候，百科的小伙伴截了一批发型图片让我处理一下上传到<a target="_blank" rel="noopener" href="https://wiki.52poke.com/wiki/%E7%BE%8E%E9%AB%AE%E6%B2%99%E9%BE%8D" title="美发沙龙">百科</a>。他大概是用了截取屏幕上的固定区域的功能，所以要裁切的区域也是一样的。虽然图片很少可以用 Photoshop 一张一张裁，但既然咸在家，而且解决这个问题就能解决服装的大问题，不如查一查好了。</p>
 <p>我的目的很简单：批量裁剪图片。</p>
-<p>很快，<a href="http://www.imagemagick.org/script/index.php" target="_blank" rel="noopener" title="官方网站">ImageMagick</a> 再次进入了我的视线。之前我用这个工具制作了这个博客的 <a href="/favicon.ico">Favicon</a>，把几张不同大小的图片整合进一张图片，只用了一行命令：</p>
+<p>很快，<a target="_blank" rel="noopener" href="http://www.imagemagick.org/script/index.php" title="官方网站">ImageMagick</a> 再次进入了我的视线。之前我用这个工具制作了这个博客的 <a href="/favicon.ico">Favicon</a>，把几张不同大小的图片整合进一张图片，只用了一行命令：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ convert *.png favicon.ico</span><br></pre></td></tr></table></figure>
 
-<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>先来介绍一下吧，<strong>ImageMagick</strong> 是一个基于命令行的、跨平台的位图工具套件，提供了编辑、格式转换、截图、显示图片等很多工具，可以参考<a href="http://www.imagemagick.org/script/command-line-tools.php" target="_blank" rel="noopener" title="Command-line Tools">官网手册</a>。这里我仅仅使用了<code>convert</code>一个工具。<br>虽然使用命令行看上去「很落后」也不直观，但在我的需求环境下使用命令行的效率可能反倒比使用 PS 批处理来得高。</p>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p><a href="https://www.imagemagick.org/script/binary-releases.php" target="_blank" rel="noopener" title="Install from Binary Distribution">官网下载页</a>提供了各个平台的安装方法，我使用的是 macOS，通过命令行的 <a href="https://brew.sh/index_zh-cn.html" target="_blank" rel="noopener" title="官网">Homebrew</a> 来安装：</p>
+<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>先来介绍一下吧，<strong>ImageMagick</strong> 是一个基于命令行的、跨平台的位图工具套件，提供了编辑、格式转换、截图、显示图片等很多工具，可以参考<a target="_blank" rel="noopener" href="http://www.imagemagick.org/script/command-line-tools.php" title="Command-line Tools">官网手册</a>。这里我仅仅使用了<code>convert</code>一个工具。<br>虽然使用命令行看上去「很落后」也不直观，但在我的需求环境下使用命令行的效率可能反倒比使用 PS 批处理来得高。</p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p><a target="_blank" rel="noopener" href="https://www.imagemagick.org/script/binary-releases.php" title="Install from Binary Distribution">官网下载页</a>提供了各个平台的安装方法，我使用的是 macOS，通过命令行的 <a target="_blank" rel="noopener" href="https://brew.sh/index_zh-cn.html" title="官网">Homebrew</a> 来安装：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ brew install imagemagick</span><br></pre></td></tr></table></figure>
 
 <p>安装好之后别忘了试一下</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ convert</span><br></pre></td></tr></table></figure>
 
 
-<h3 id="裁切命令"><a href="#裁切命令" class="headerlink" title="裁切命令"></a>裁切命令</h3><p>注：以下命令中花括号<code>{}</code>内的是参数。</p>
+<h3 id="裁切命令"><a href="#裁切命令" class="headerlink" title="裁切命令"></a>裁切命令</h3><p>注：以下命令中花括号<code>&#123;&#125;</code>内的是参数。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ convert &#123;inputFile&#125; -crop &#123;positionX&#125;x&#123;positionY&#125;+&#123;width&#125;+&#123;heigth&#125; &#123;outputFile&#125;</span><br></pre></td></tr></table></figure>
 
 <h4 id="参数说明"><a href="#参数说明" class="headerlink" title="参数说明"></a>参数说明</h4><p>输入输出文件</p>
@@ -259,7 +259,7 @@
 
 <p>即可生成 GIF 文件。</p>
 <p>然而，然而，然而，ImageMagick 似乎不支持<strong>批处理覆盖原文件</strong>，这个时候可以通过 Shell 脚本来实现：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> file <span class="keyword">in</span> *.png; <span class="keyword">do</span></span><br><span class="line">	convert <span class="variable">$file</span> -crop 152x72+96+96 <span class="variable">$file</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> file <span class="keyword">in</span> *.png; <span class="keyword">do</span></span><br><span class="line">    convert <span class="variable">$file</span> -crop 152x72+96+96 <span class="variable">$file</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>
 
 <p>如果写进一行的话，运行的时候只要按上再回车就好了吧：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> file <span class="keyword">in</span> *.png; <span class="keyword">do</span> convert <span class="variable">$file</span> -crop 152x72+96+96 <span class="variable">$file</span>; <span class="keyword">done</span></span><br></pre></td></tr></table></figure>
@@ -267,7 +267,7 @@
 <p>就靠着这一行命令，我一晚上肝了200多张图……当然，上衣、下装、鞋子袜子什么的大小和位置需要调整，不过已经比我想象中的轻松多了。</p>
 <p>那啥，我也不懂 Shell 脚本，似乎还可以做得复杂一些，利用循环语句从一张大图上裁取多个位置什么的，比如从一张名单图片上裁下每个人的照片之类的（只要位置、大小可以算出来）。</p>
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
-<li><a href="http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html" target="_blank" rel="noopener">我的ImageMagick使用心得</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html">我的ImageMagick使用心得</a></li>
 </ul>
 
     </div>
@@ -352,7 +352,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#ImageMagick"><span class="nav-number">1.</span> <span class="nav-text">ImageMagick</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#简介"><span class="nav-number">1.1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装"><span class="nav-number">1.2.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#裁切命令"><span class="nav-number">1.3.</span> <span class="nav-text">裁切命令</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#参数说明"><span class="nav-number">1.3.1.</span> <span class="nav-text">参数说明</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#批处理"><span class="nav-number">2.</span> <span class="nav-text">批处理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考"><span class="nav-number">3.</span> <span class="nav-text">参考</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#ImageMagick"><span class="nav-number">1.</span> <span class="nav-text">ImageMagick</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AE%80%E4%BB%8B"><span class="nav-number">1.1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85"><span class="nav-number">1.2.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A3%81%E5%88%87%E5%91%BD%E4%BB%A4"><span class="nav-number">1.3.</span> <span class="nav-text">裁切命令</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E"><span class="nav-number">1.3.1.</span> <span class="nav-text">参数说明</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%89%B9%E5%A4%84%E7%90%86"><span class="nav-number">2.</span> <span class="nav-text">批处理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83"><span class="nav-number">3.</span> <span class="nav-text">参考</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

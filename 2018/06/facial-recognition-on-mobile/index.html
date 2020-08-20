@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.1">
+<meta name="generator" content="Hexo 5.0.2">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
 
@@ -26,7 +26,7 @@
 <meta property="og:description" content="自配备原深感摄像头并且以面容 IDFace ID 替代了触控 IDTouch ID 的 iPhone X 发布以来，移动端面部识别一下子进入了消费者的视野，近期发布的小米8也有些出人意料地配备了类似的技术。越来越多新手机开始拿面部识别当作卖点，那么这些面部识别在技术上有什么不同，这段时间翻了翻各大厂商的网站和一些资料，聊一聊我所了解的面部识别。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2018-06-07T09:14:52.000Z">
-<meta property="article:modified_time" content="2020-05-23T02:36:36.058Z">
+<meta property="article:modified_time" content="2018-06-07T09:14:52.000Z">
 <meta property="article:author" content="Lucka">
 <meta property="article:tag" content="Tech">
 <meta name="twitter:card" content="summary">
@@ -195,13 +195,6 @@
 
               <time title="创建时间：2018-06-07 17:14:52" itemprop="dateCreated datePublished" datetime="2018-06-07T17:14:52+08:00">2018-06-07</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-05-23 10:36:36" itemprop="dateModified" datetime="2020-05-23T10:36:36+08:00">2020-05-23</time>
-              </span>
 
           
 
@@ -217,16 +210,16 @@
         <p>自配备原深感摄像头并且以<ruby><rb>面容 ID</rb><rt>Face ID</rt></ruby> 替代了<ruby><rb>触控 ID</rb><rt>Touch ID</rt></ruby> 的 iPhone X 发布以来，移动端面部识别一下子进入了消费者的视野，近期发布的小米8也有些出人意料地配备了类似的技术。越来越多新手机开始拿面部识别当作卖点，那么这些面部识别在技术上有什么不同，这段时间翻了翻各大厂商的网站和一些资料，聊一聊我所了解的面部识别。</p>
 <a id="more"></a>
 
-<h2 id="旧时代的面部识别"><a href="#旧时代的面部识别" class="headerlink" title="旧时代的面部识别"></a>旧时代的面部识别</h2><p>相信很多人都知道或者在 iPhone X 发布之后被科普过（比如<a href="https://sspai.com/post/41361" target="_blank" rel="noopener">少数派的这篇文章</a>），早先的 Android 其实提供了面部识别作为解锁的选项。我接触智能手机比较晚，曾经似乎在一台已经过气多年的三星手机上看到过这个选项，但从来没试过。不过我倒是很清楚地记得自己曾经用的联想 F50A 笔记本电脑附带的软件光盘里附带了一个面部识别软件，可以在 Windows XP 下登录系统。<br>但必须注意的是，这些面部识别使用的都是基于前置摄像头捕捉的平面图像并以简单的算法进行判断，这些面部识别在软硬件上都存在致命的缺陷。<br><strong>摄像头是面部识别的硬件基础</strong>，我的那台老联想的前置摄像头是130万像素的视频摄像头，其成像质量在现在看来简直不堪入目；至于手机，在厂商们开始重视自拍之前它们的前置摄像头成像质量也几乎都在这种「上个时代的水平」，它们所捕捉的信息根本不足以进行足够可靠的识别。<br><strong>算法是面部识别的软件基础</strong>，有些时候硬件次一点没关系，可以用软件来补偿啊，比如<s>苹果系产品……呃算了这个各有各的看法（笑）</s>Google 就在 Pixel 2 上通过算法使用单镜头实现本来只有双镜头手机才能实现的景深效果，<a href="https://cn.engadget.com/2018/03/14/google-open-sources-pixel-2-portrait-code/" target="_blank" rel="noopener">还把算法开了源</a>。但旧时代的面部识别用的都是简单的算法，「人工智能」这方面，智能是不可能智能的，这辈子不可能人工智能的，复杂的算法写不出，就是拿 <a href="https://docs.opencv.org/3.4.1/d7/d8b/tutorial_py_face_detection.html" target="_blank" rel="noopener">OpenCV 的算法</a>改一改，才能识别得了面部这样子，活体识别什么的不存在的，照片和屏幕里的人也是人嘛你说是不是？</p>
+<h2 id="旧时代的面部识别"><a href="#旧时代的面部识别" class="headerlink" title="旧时代的面部识别"></a>旧时代的面部识别</h2><p>相信很多人都知道或者在 iPhone X 发布之后被科普过（比如<a target="_blank" rel="noopener" href="https://sspai.com/post/41361">少数派的这篇文章</a>），早先的 Android 其实提供了面部识别作为解锁的选项。我接触智能手机比较晚，曾经似乎在一台已经过气多年的三星手机上看到过这个选项，但从来没试过。不过我倒是很清楚地记得自己曾经用的联想 F50A 笔记本电脑附带的软件光盘里附带了一个面部识别软件，可以在 Windows XP 下登录系统。<br>但必须注意的是，这些面部识别使用的都是基于前置摄像头捕捉的平面图像并以简单的算法进行判断，这些面部识别在软硬件上都存在致命的缺陷。<br><strong>摄像头是面部识别的硬件基础</strong>，我的那台老联想的前置摄像头是130万像素的视频摄像头，其成像质量在现在看来简直不堪入目；至于手机，在厂商们开始重视自拍之前它们的前置摄像头成像质量也几乎都在这种「上个时代的水平」，它们所捕捉的信息根本不足以进行足够可靠的识别。<br><strong>算法是面部识别的软件基础</strong>，有些时候硬件次一点没关系，可以用软件来补偿啊，比如<s>苹果系产品……呃算了这个各有各的看法（笑）</s>Google 就在 Pixel 2 上通过算法使用单镜头实现本来只有双镜头手机才能实现的景深效果，<a target="_blank" rel="noopener" href="https://cn.engadget.com/2018/03/14/google-open-sources-pixel-2-portrait-code/">还把算法开了源</a>。但旧时代的面部识别用的都是简单的算法，「人工智能」这方面，智能是不可能智能的，这辈子不可能人工智能的，复杂的算法写不出，就是拿 <a target="_blank" rel="noopener" href="https://docs.opencv.org/3.4.1/d7/d8b/tutorial_py_face_detection.html">OpenCV 的算法</a>改一改，才能识别得了面部这样子，活体识别什么的不存在的，照片和屏幕里的人也是人嘛你说是不是？</p>
 <p>总之，旧时代的面部识别真的就只是「玩具」而已。</p>
-<h2 id="自拍和人工智能"><a href="#自拍和人工智能" class="headerlink" title="自拍和人工智能"></a>自拍和人工智能</h2><p>也不记得是从什么时候开始的，各大手机厂商开始重视起手机的自拍功能，原来的只用来视频通话的前置摄像头变得和比后置摄像头还更重要，硬件性能突飞猛进，单是像素数就从百万出头一路飙升到千万级别，各种软硬件优化百花齐放。<br>另一方面，「人工智能」最近几年也发展得很迅速，虽然在我这个啥都不懂的人看来所谓「人工智能」好像就是一堆复杂上天然后用大量样本进行机器学习回归和修正出来的算法，不过除去那些拿「人工智能」作幌子的东西来看的话，实际效果……貌似可还行？人工智能的应用领域包括生物识别（<del>至少<a href="https://zh.wikipedia.org/wiki/机器学习" target="_blank" rel="noopener">维基百科是这么说的</a></del>），作为具体应用的面部识别当然也要加入人工智能的行列啦。</p>
-<p>在 iPhone X 发布后，很多厂商在新手机以及旧手机的系统更新中增加了面部识别解锁的功能，它们自然不能用旧时代的木头轮子，不然分分钟翻车打脸。于是基于高性能摄像头、高性能处理器和人工智能的新时代的面部识别出现了，一家叫<a href="https://megvii.com" target="_blank" rel="noopener">旷视科技</a>的公司和国内大厂们开始合作，通过这家公司提供的算法（Face++），新的面部识别可以在一定程度上克服活体识别等一系列障碍，在软件上提供全面超越旧时代的可靠性。</p>
-<p>其实我对这里面的部分技术细节还是蛮感兴趣的，比如他们是怎么用照片建立人脸模型的？是像 <a href="http://ccwu.me/vsfm/" target="_blank" rel="noopener">VisualSFM</a> 那样捕捉有细微角度差别的图像然后进行三维重建的吗？学摄影测量学的时候了解过这个软件，感觉蛮有趣的。</p>
+<h2 id="自拍和人工智能"><a href="#自拍和人工智能" class="headerlink" title="自拍和人工智能"></a>自拍和人工智能</h2><p>也不记得是从什么时候开始的，各大手机厂商开始重视起手机的自拍功能，原来的只用来视频通话的前置摄像头变得和比后置摄像头还更重要，硬件性能突飞猛进，单是像素数就从百万出头一路飙升到千万级别，各种软硬件优化百花齐放。<br>另一方面，「人工智能」最近几年也发展得很迅速，虽然在我这个啥都不懂的人看来所谓「人工智能」好像就是一堆复杂上天然后用大量样本进行机器学习回归和修正出来的算法，不过除去那些拿「人工智能」作幌子的东西来看的话，实际效果……貌似可还行？人工智能的应用领域包括生物识别（<del>至少<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0">维基百科是这么说的</a></del>），作为具体应用的面部识别当然也要加入人工智能的行列啦。</p>
+<p>在 iPhone X 发布后，很多厂商在新手机以及旧手机的系统更新中增加了面部识别解锁的功能，它们自然不能用旧时代的木头轮子，不然分分钟翻车打脸。于是基于高性能摄像头、高性能处理器和人工智能的新时代的面部识别出现了，一家叫<a target="_blank" rel="noopener" href="https://megvii.com/">旷视科技</a>的公司和国内大厂们开始合作，通过这家公司提供的算法（Face++），新的面部识别可以在一定程度上克服活体识别等一系列障碍，在软件上提供全面超越旧时代的可靠性。</p>
+<p>其实我对这里面的部分技术细节还是蛮感兴趣的，比如他们是怎么用照片建立人脸模型的？是像 <a target="_blank" rel="noopener" href="http://ccwu.me/vsfm/">VisualSFM</a> 那样捕捉有细微角度差别的图像然后进行三维重建的吗？学摄影测量学的时候了解过这个软件，感觉蛮有趣的。</p>
 <p>不过软件终究是软件，算法是有效的，但不总是有效的，那些美颜算法再人工智能也会有错误识别错边缘、特征点然后翻车的时候。面部识别也是，有些本质上的差距，除了改变本质之外是没有第二条路可走的，就像你不能把一台手机连上27寸触控显示器然后适配一下桌面和办公软件就能把它们变成工作站。</p>
 <p>所以我们接下来着重看看硬件上的改进。</p>
 <h2 id="Windows-Hello"><a href="#Windows-Hello" class="headerlink" title="Windows Hello"></a>Windows Hello</h2><p>如果用过较新款的 Surface 系列电脑或者一些带指纹识别的电脑，应该对 Windows Hello 不陌生。Windows Hello 是微软在 Windows 10 上新推出的一套登录验证解决方案，它支持的验证设备包括指纹读取器、虹膜识别器，以及<strong>近红外摄像头</strong>。</p>
 <p>微软在自家的 Surface 系列上全都配备了符合 Windows Hello 标准的摄像头，并且称其安全性是「企业级」的。微软的自信很大一部分原因来自其硬件上的保证——一颗高像素摄像头加一颗近红外摄像头。</p>
-<p>使用高像素摄像头的原因就不用解释了，看得清楚脸才能晓得你是哪个迈，这里的重点是近红外摄像头，关于它的作用，微软专门写了<a href="https://msdn.microsoft.com/zh-cn/library/windows/hardware/mt450467.aspx" target="_blank" rel="noopener">一篇文档</a>来解释，字多排版乱看不懂都不要紧，字不重要（而且翻译得也不咋的，不如看看<a href="https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/windows-hello-face-authentication" target="_blank" rel="noopener">英语原文</a>），看图就好，然后我们来划一下重点：</p>
+<p>使用高像素摄像头的原因就不用解释了，看得清楚脸才能晓得你是哪个迈，这里的重点是近红外摄像头，关于它的作用，微软专门写了<a target="_blank" rel="noopener" href="https://msdn.microsoft.com/zh-cn/library/windows/hardware/mt450467.aspx">一篇文档</a>来解释，字多排版乱看不懂都不要紧，字不重要（而且翻译得也不咋的，不如看看<a target="_blank" rel="noopener" href="https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/windows-hello-face-authentication">英语原文</a>），看图就好，然后我们来划一下重点：</p>
 <blockquote>
 <p><strong>近红外的优点</strong><br>在带有面部识别功能的首版 Kinect 发布之后，微软意识到依赖环境光来获取一致的图像会带来较差的用户体验。人们在有着各种照明条件的不同环境中生活和工作。传统的颜色识别系统依赖于调高亮度、曝光或其他设置以获取可使用的图像——所有这些操作都将系统稳定性暴露在人为因素的影响中。</p>
 </blockquote>
@@ -250,14 +243,14 @@
 <p>目前使用这项技术的，应该只有 iPhone X 和小米8透明探索版了。</p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>单从技术的先进性和可靠性的角度来看，结构光应该是目前手机上最好的面部识别方案，但受制于技术的复杂性和高昂的成本，短期内应该不会在除苹果系之外的手机里普及，最多像小米那样在旗舰机里试试水。<br>基于普通相机和先进算法的面部识别因为其几乎为零的成本，仍然会是各大手机厂商的首选，但它不可能成为大多数消费者的首选，因为硬件的限制决定了其可靠性是有极限的。<br>至于红外人脸识别，现在越来越多的笔记本都为 Windows Hello 配置了红外摄像头，技术在不断成熟，成本不高而可靠性和用户体验都比传统面部识别有很大的提升，因此个人认为这个相对「折衷」的方案前景还是比较广的。</p>
 <h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul>
-<li><a href="https://sspai.com/post/41361" target="_blank" rel="noopener">Android 4.0 时代就有的人脸识别，和 Face ID 到底有什么区别？ - 少数派</a></li>
-<li><a href="https://cn.engadget.com/2018/03/14/google-open-sources-pixel-2-portrait-code/" target="_blank" rel="noopener">谷歌 Pixel 2 人像模式的代码成为开源 - Engadget</a></li>
-<li><a href="https://docs.opencv.org/3.4.1/d7/d8b/tutorial_py_face_detection.html" target="_blank" rel="noopener">OpenCV: Face Detection using Haar Cascades</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/机器学习" target="_blank" rel="noopener">机器学习 - 维基百科</a></li>
-<li><a href="https://megvii.com" target="_blank" rel="noopener">Face++旷视科技官网</a></li>
-<li><a href="http://ccwu.me/vsfm/" target="_blank" rel="noopener">VisualSFM : A Visual Structure from Motion System</a></li>
-<li><a href="https://msdn.microsoft.com/zh-cn/library/windows/hardware/mt450467.aspx" target="_blank" rel="noopener">Windows Hello 面部身份验证 - Windows hardware dev</a></li>
-<li><a href="https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/windows-hello-face-authentication" target="_blank" rel="noopener">Windows Hello face authentication | Microsoft Docs</a></li>
+<li><a target="_blank" rel="noopener" href="https://sspai.com/post/41361">Android 4.0 时代就有的人脸识别，和 Face ID 到底有什么区别？ - 少数派</a></li>
+<li><a target="_blank" rel="noopener" href="https://cn.engadget.com/2018/03/14/google-open-sources-pixel-2-portrait-code/">谷歌 Pixel 2 人像模式的代码成为开源 - Engadget</a></li>
+<li><a target="_blank" rel="noopener" href="https://docs.opencv.org/3.4.1/d7/d8b/tutorial_py_face_detection.html">OpenCV: Face Detection using Haar Cascades</a></li>
+<li><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0">机器学习 - 维基百科</a></li>
+<li><a target="_blank" rel="noopener" href="https://megvii.com/">Face++旷视科技官网</a></li>
+<li><a target="_blank" rel="noopener" href="http://ccwu.me/vsfm/">VisualSFM : A Visual Structure from Motion System</a></li>
+<li><a target="_blank" rel="noopener" href="https://msdn.microsoft.com/zh-cn/library/windows/hardware/mt450467.aspx">Windows Hello 面部身份验证 - Windows hardware dev</a></li>
+<li><a target="_blank" rel="noopener" href="https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/windows-hello-face-authentication">Windows Hello face authentication | Microsoft Docs</a></li>
 </ul>
 
     </div>
@@ -342,7 +335,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#旧时代的面部识别"><span class="nav-number">1.</span> <span class="nav-text">旧时代的面部识别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自拍和人工智能"><span class="nav-number">2.</span> <span class="nav-text">自拍和人工智能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Windows-Hello"><span class="nav-number">3.</span> <span class="nav-text">Windows Hello</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#结构光"><span class="nav-number">4.</span> <span class="nav-text">结构光</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">5.</span> <span class="nav-text">总结</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考资料"><span class="nav-number">6.</span> <span class="nav-text">参考资料</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%97%A7%E6%97%B6%E4%BB%A3%E7%9A%84%E9%9D%A2%E9%83%A8%E8%AF%86%E5%88%AB"><span class="nav-number">1.</span> <span class="nav-text">旧时代的面部识别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E6%8B%8D%E5%92%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD"><span class="nav-number">2.</span> <span class="nav-text">自拍和人工智能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Windows-Hello"><span class="nav-number">3.</span> <span class="nav-text">Windows Hello</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E6%9E%84%E5%85%89"><span class="nav-number">4.</span> <span class="nav-text">结构光</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">5.</span> <span class="nav-text">总结</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="nav-number">6.</span> <span class="nav-text">参考资料</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
