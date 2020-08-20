@@ -94,6 +94,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 plugin:
   hexo-generator-feed
+  hexo-generator-alias
 
 ### hexo-generator-feed
 feed:
@@ -102,6 +103,11 @@ feed:
   limit: 10
   hub:
   content:
+
+### hexo-generator-alias
+alias:
+  potori: https://potori.lucka.moe
+
 ## Themes: https://hexo.io/themes/
 theme: next
 
@@ -110,4 +116,4 @@ theme: next
 deploy:
   type: git
   repo: git@github.com:lucka-me/lucka-me.github.io.git
-  branch: master
+  branch: gh-pages
